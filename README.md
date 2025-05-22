@@ -7,7 +7,6 @@
 請去 [Releases](https://github.com/LittleSurvival/copymanga-copy20/releases/tag/copymanga) 下載APK。
 
 **使用倉庫更新地址** : 
-https://raw.githubusercontent.com/LittleSurvival/copymanga-copy20/repo/index.min.json
-
+https://raw.githubusercontent.com/LittleSurvival/copymanga-copy20/refs/heads/main/index.min.json
 
 > 若侵犯到原作者權益立即刪除
