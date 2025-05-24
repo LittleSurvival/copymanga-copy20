@@ -7,7 +7,7 @@
 
 `https://raw.githubusercontent.com/LittleSurvival/copymanga-copy20/refs/heads/main/index.min.json`
 
-若無法成功，則 **下載apk並安裝** ， 請去 [Releases](https://github.com/LittleSurvival/copymanga-copy20/releases/tag/copymanga) 下載APK。
+若無法成功，則 **下載apk並安裝** ， 請去 [Releases](https://github.com/LittleSurvival/copymanga-copy20/releases) 下載APK。
 
 ## 最新更新 v1.4.54
 
