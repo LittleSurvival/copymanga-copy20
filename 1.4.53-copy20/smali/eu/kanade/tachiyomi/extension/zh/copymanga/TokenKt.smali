@@ -156,7 +156,7 @@
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
-    const-string p0, "https://www.mangacopy.com/"
+    const-string p0, "https://www.copy20.com"
 
     .line 38
     invoke-virtual {v0, p0}, Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V

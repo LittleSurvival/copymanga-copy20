@@ -27,7 +27,7 @@
         "Lokhttp3/OkHttpClient;",
         "preferences",
         "Landroid/content/SharedPreferences;",
-        "tachiyomi-zh.copymanga-v1.4.53_release"
+        "tachiyomi-zh.copymanga-v1.4.52_release"
     }
     k = 0x2
     mv = {
@@ -246,7 +246,7 @@
 
     move-result-object v1
 
-    invoke-static {v1, p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/HeadersKt;->setVersion(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
+    invoke-static {v1, p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/UtilsKt;->setVersion(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
     move-result-object v1
 

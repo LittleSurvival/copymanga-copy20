@@ -8,12 +8,12 @@
 
 # annotations
 .annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCopyManga.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CopyManga.kt\neu/kanade/tachiyomi/extension/zh/copymanga/CopyManga\n+ 2 Factory.kt\nuy/kohesive/injekt/api/FactoryKt\n+ 3 TypeInfo.kt\nuy/kohesive/injekt/api/TypeInfoKt\n+ 4 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 5 Json.kt\neu/kanade/tachiyomi/extension/zh/copymanga/JsonKt\n+ 6 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 7 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,282:1\n30#2:283\n27#3:284\n1#4:285\n30#5:286\n30#5:291\n30#5:296\n30#5:297\n30#5:301\n30#5:311\n1549#6:287\n1620#6,3:288\n1549#6:292\n1620#6,3:293\n1620#6,3:298\n3442#6,7:302\n13543#7,2:309\n*S KotlinDebug\n*F\n+ 1 CopyManga.kt\neu/kanade/tachiyomi/extension/zh/copymanga/CopyManga\n*L\n36#1:283\n36#1:284\n123#1:286\n180#1:291\n193#1:296\n221#1:297\n239#1:301\n207#1:311\n125#1:287\n125#1:288,3\n182#1:292\n182#1:293,3\n223#1:298,3\n245#1:302,7\n279#1:309,2\n*E\n"
+    value = "SMAP\nCopyManga.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CopyManga.kt\neu/kanade/tachiyomi/extension/zh/copymanga/CopyManga\n+ 2 Factory.kt\nuy/kohesive/injekt/api/FactoryKt\n+ 3 TypeInfo.kt\nuy/kohesive/injekt/api/TypeInfoKt\n+ 4 Json.kt\neu/kanade/tachiyomi/extension/zh/copymanga/JsonKt\n+ 5 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 6 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,242:1\n30#2:243\n27#3:244\n30#4:245\n30#4:250\n30#4:255\n30#4:256\n30#4:260\n30#4:270\n1549#5:246\n1620#5,3:247\n1549#5:251\n1620#5,3:252\n1620#5,3:257\n3442#5,7:261\n13543#6,2:268\n*S KotlinDebug\n*F\n+ 1 CopyManga.kt\neu/kanade/tachiyomi/extension/zh/copymanga/CopyManga\n*L\n33#1:243\n33#1:244\n112#1:245\n146#1:250\n161#1:255\n190#1:256\n208#1:260\n176#1:270\n114#1:246\n114#1:247,3\n148#1:251\n148#1:252,3\n192#1:257,3\n214#1:261,7\n239#1:268,2\n*E\n"
 .end annotation
 
 .annotation runtime Lkotlin/Metadata;
     d1 = {
-        "\u0000\u0098\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u000e\n\u0002\u0008\u000e\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0010\u0001\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u00012\u00020\u0002B\u0005\u00a2\u0006\u0002\u0010\u0003J\u0010\u0010$\u001a\u00020%2\u0006\u0010&\u001a\u00020\'H\u0014J\u0010\u0010(\u001a\u00020%2\u0006\u0010)\u001a\u00020*H\u0014J8\u0010+\u001a\u00020,2\u0016\u0010-\u001a\u0012\u0012\u0004\u0012\u00020/0.j\u0008\u0012\u0004\u0012\u00020/`02\u0006\u0010)\u001a\u00020\r2\u0006\u00101\u001a\u00020\r2\u0006\u0010\u0019\u001a\u00020\rH\u0002J\u001c\u00102\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020/04032\u0006\u0010)\u001a\u00020*H\u0016J&\u00105\u001a\u0008\u0012\u0004\u0012\u000206032\u0006\u00107\u001a\u0002082\u0006\u00109\u001a\u00020\r2\u0006\u0010:\u001a\u00020;H\u0016J\u0010\u0010<\u001a\u00020\r2\u0006\u0010=\u001a\u00020/H\u0016J\u0008\u0010>\u001a\u00020;H\u0016J\u0010\u0010?\u001a\u00020\r2\u0006\u0010)\u001a\u00020*H\u0016J\u0008\u0010@\u001a\u00020AH\u0014J\u0010\u0010B\u001a\u00020C2\u0006\u00107\u001a\u00020DH\u0014J\u0010\u0010E\u001a\u00020%2\u0006\u0010&\u001a\u00020\'H\u0014J\u0010\u0010F\u001a\u0002062\u0006\u0010&\u001a\u00020\'H\u0014J\u0010\u0010G\u001a\u00020C2\u0006\u00107\u001a\u000208H\u0014J\u0010\u0010H\u001a\u00020*2\u0006\u0010&\u001a\u00020\'H\u0014J\u0010\u0010I\u001a\u00020C2\u0006\u0010)\u001a\u00020*H\u0016J\u0016\u0010J\u001a\u0008\u0012\u0004\u0012\u00020D042\u0006\u0010&\u001a\u00020\'H\u0014J\u0010\u0010K\u001a\u00020C2\u0006\u0010=\u001a\u00020/H\u0014J\u0010\u0010L\u001a\u0002062\u0006\u0010&\u001a\u00020\'H\u0014J\u0010\u0010M\u001a\u00020C2\u0006\u00107\u001a\u000208H\u0014J\u0010\u0010N\u001a\u0002062\u0006\u0010&\u001a\u00020\'H\u0014J \u0010O\u001a\u00020C2\u0006\u00107\u001a\u0002082\u0006\u00109\u001a\u00020\r2\u0006\u0010:\u001a\u00020;H\u0014J\u0010\u0010P\u001a\u00020,2\u0006\u0010Q\u001a\u00020RH\u0016R\u000e\u0010\u0004\u001a\u00020\u0005X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u0006\u001a\u00020\u0007X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0008\u0010\t\"\u0004\u0008\n\u0010\u000bR\u001a\u0010\u000c\u001a\u00020\rX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000e\u0010\u000f\"\u0004\u0008\u0010\u0010\u0011R\u0014\u0010\u0012\u001a\u00020\r8VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0013\u0010\u000fR\u0014\u0010\u0014\u001a\u00020\u00058VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0015\u0010\u0016R\u0014\u0010\u0017\u001a\u00020\rX\u0096D\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0018\u0010\u000fR\u0014\u0010\u0019\u001a\u00020\rX\u0096D\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001a\u0010\u000fR\u000e\u0010\u001b\u001a\u00020\u001cX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0014\u0010\u001d\u001a\u00020\r8BX\u0082\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u001e\u0010\u000fR\u0014\u0010\u001f\u001a\u00020 X\u0096D\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008!\u0010\"R\u000e\u0010#\u001a\u00020\rX\u0082\u000e\u00a2\u0006\u0002\n\u0000\u00a8\u0006S"
+        "\u0000\u00a4\u0001\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u000e\n\u0002\u0008\u000e\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0010\u0001\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u00012\u00020\u0002B\u0005\u00a2\u0006\u0002\u0010\u0003J\u0010\u0010#\u001a\u00020$2\u0006\u0010%\u001a\u00020&H\u0014J\u0010\u0010\'\u001a\u00020$2\u0006\u0010(\u001a\u00020)H\u0014J8\u0010*\u001a\u00020+2\u0016\u0010,\u001a\u0012\u0012\u0004\u0012\u00020.0-j\u0008\u0012\u0004\u0012\u00020.`/2\u0006\u0010(\u001a\u00020\r2\u0006\u00100\u001a\u00020\r2\u0006\u0010\u0019\u001a\u00020\rH\u0002J\u001c\u00101\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020.03022\u0006\u0010(\u001a\u00020)H\u0016J\u0010\u00104\u001a\u00020\r2\u0006\u00105\u001a\u00020.H\u0016J\u0008\u00106\u001a\u000207H\u0016J\u0010\u00108\u001a\u00020\r2\u0006\u0010(\u001a\u00020)H\u0016J\u0008\u00109\u001a\u00020:H\u0014J\u0010\u0010;\u001a\u00020<2\u0006\u0010=\u001a\u00020>H\u0014J\u0010\u0010?\u001a\u00020$2\u0006\u0010%\u001a\u00020&H\u0014J\u0010\u0010@\u001a\u00020A2\u0006\u0010%\u001a\u00020&H\u0014J\u0010\u0010B\u001a\u00020<2\u0006\u0010=\u001a\u00020CH\u0014J\u0010\u0010D\u001a\u00020)2\u0006\u0010%\u001a\u00020&H\u0014J\u0010\u0010E\u001a\u00020<2\u0006\u0010(\u001a\u00020)H\u0016J\u0016\u0010F\u001a\u0008\u0012\u0004\u0012\u00020>032\u0006\u0010%\u001a\u00020&H\u0014J\u0010\u0010G\u001a\u00020<2\u0006\u00105\u001a\u00020.H\u0014J\u0010\u0010H\u001a\u00020A2\u0006\u0010%\u001a\u00020&H\u0014J\u0010\u0010I\u001a\u00020<2\u0006\u0010=\u001a\u00020CH\u0014J\u001a\u0010J\u001a\u00020<2\u0006\u0010(\u001a\u00020)2\u0008\u0010K\u001a\u0004\u0018\u00010LH\u0002J\u0010\u0010M\u001a\u00020A2\u0006\u0010%\u001a\u00020&H\u0014J \u0010N\u001a\u00020<2\u0006\u0010=\u001a\u00020C2\u0006\u0010O\u001a\u00020\r2\u0006\u0010P\u001a\u000207H\u0014J\u0010\u0010Q\u001a\u00020+2\u0006\u0010R\u001a\u00020SH\u0016R\u000e\u0010\u0004\u001a\u00020\u0005X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001a\u0010\u0006\u001a\u00020\u0007X\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u0008\u0010\t\"\u0004\u0008\n\u0010\u000bR\u001a\u0010\u000c\u001a\u00020\rX\u0086\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\u0008\u000e\u0010\u000f\"\u0004\u0008\u0010\u0010\u0011R\u0014\u0010\u0012\u001a\u00020\r8VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0013\u0010\u000fR\u0014\u0010\u0014\u001a\u00020\u00058VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0015\u0010\u0016R\u0014\u0010\u0017\u001a\u00020\rX\u0096D\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0018\u0010\u000fR\u0014\u0010\u0019\u001a\u00020\rX\u0096D\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u001a\u0010\u000fR\u000e\u0010\u001b\u001a\u00020\u001cX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u0014\u0010\u001d\u001a\u00020\r8BX\u0082\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u001e\u0010\u000fR\u0014\u0010\u001f\u001a\u00020 X\u0096D\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008!\u0010\"\u00a8\u0006T"
     }
     d2 = {
         "Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;",
@@ -51,7 +51,6 @@
         "",
         "getSupportsLatest",
         "()Z",
-        "token",
         "chapterListParse",
         "",
         "response",
@@ -69,37 +68,39 @@
         "fetchChapterList",
         "Lrx/Observable;",
         "",
-        "fetchSearchManga",
-        "Leu/kanade/tachiyomi/source/model/MangasPage;",
-        "page",
-        "",
-        "query",
-        "filters",
-        "Leu/kanade/tachiyomi/source/model/FilterList;",
         "getChapterUrl",
         "chapter",
         "getFilterList",
+        "Leu/kanade/tachiyomi/source/model/FilterList;",
         "getMangaUrl",
         "headersBuilder",
         "Lokhttp3/Headers$Builder;",
         "imageRequest",
         "Lokhttp3/Request;",
+        "page",
         "Leu/kanade/tachiyomi/source/model/Page;",
         "imageUrlParse",
         "latestUpdatesParse",
+        "Leu/kanade/tachiyomi/source/model/MangasPage;",
         "latestUpdatesRequest",
+        "",
         "mangaDetailsParse",
         "mangaDetailsRequest",
         "pageListParse",
         "pageListRequest",
         "popularMangaParse",
         "popularMangaRequest",
+        "realMangaDetailsRequest",
+        "cache",
+        "Lokhttp3/CacheControl;",
         "searchMangaParse",
         "searchMangaRequest",
+        "query",
+        "filters",
         "setupPreferenceScreen",
         "screen",
         "Landroidx/preference/PreferenceScreen;",
-        "tachiyomi-zh.copymanga-v1.4.53_release"
+        "tachiyomi-zh.copymanga-v1.4.52_release"
     }
     k = 0x1
     mv = {
@@ -126,24 +127,12 @@
 
 .field private final supportsLatest:Z
 
-.field private token:Ljava/lang/String;
-
 
 # direct methods
-.method public static synthetic $r8$lambda$8LLZBRnlc98tns-4zPxKkxVVWtc(Leu/kanade/tachiyomi/source/model/SManga;Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;)Ljava/util/List;
+.method public static synthetic $r8$lambda$70H3YNtMz8fauo1NKrgoqY4zD6Y(Leu/kanade/tachiyomi/source/model/SManga;Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;)Ljava/util/List;
     .locals 0
 
-    invoke-static {p0, p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->fetchChapterList$lambda$5(Leu/kanade/tachiyomi/source/model/SManga;Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;)Ljava/util/List;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static synthetic $r8$lambda$ao4GgedQa9c-GhkUyACQ07Vf_Zw(Lkotlin/jvm/functions/Function1;Ljava/lang/Object;)Leu/kanade/tachiyomi/source/model/MangasPage;
-    .locals 0
-
-    invoke-static {p0, p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->fetchSearchManga$lambda$2(Lkotlin/jvm/functions/Function1;Ljava/lang/Object;)Leu/kanade/tachiyomi/source/model/MangasPage;
+    invoke-static {p0, p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->fetchChapterList$lambda$3(Leu/kanade/tachiyomi/source/model/SManga;Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;)Ljava/util/List;
 
     move-result-object p0
 
@@ -153,39 +142,39 @@
 .method public constructor <init>()V
     .locals 7
 
-    .line 30
+    .line 27
     invoke-direct {p0}, Leu/kanade/tachiyomi/source/online/HttpSource;-><init>()V
 
     const-string v0, "\u62f7\u8d1d\u6f2b\u753b"
 
-    .line 31
+    .line 28
     iput-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->name:Ljava/lang/String;
 
     const-string v0, "zh"
 
-    .line 32
+    .line 29
     iput-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->lang:Ljava/lang/String;
 
     const/4 v0, 0x1
 
-    .line 33
+    .line 30
     iput-boolean v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->supportsLatest:Z
 
-    .line 36
+    .line 33
     invoke-static {}, Luy/kohesive/injekt/InjektKt;->getInjekt()Luy/kohesive/injekt/api/InjektScope;
 
     move-result-object v1
 
     check-cast v1, Luy/kohesive/injekt/api/InjektFactory;
 
-    .line 284
+    .line 244
     new-instance v2, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$special$$inlined$get$1;
 
     invoke-direct {v2}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$special$$inlined$get$1;-><init>()V
 
     check-cast v2, Luy/kohesive/injekt/api/FullTypeReference;
 
-    .line 283
+    .line 243
     invoke-virtual {v2}, Luy/kohesive/injekt/api/FullTypeReference;->getType()Ljava/lang/reflect/Type;
 
     move-result-object v2
@@ -196,7 +185,7 @@
 
     check-cast v1, Landroid/app/Application;
 
-    .line 36
+    .line 33
     new-instance v2, Ljava/lang/StringBuilder;
 
     const-string v3, "source_"
@@ -225,7 +214,7 @@
 
     iput-object v1, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->preferences:Landroid/content/SharedPreferences;
 
-    .line 54
+    .line 51
     invoke-static {}, Leu/kanade/tachiyomi/extension/zh/copymanga/ConstantsKt;->getAPI_DOMAINS()[Ljava/lang/String;
 
     move-result-object v2
@@ -234,7 +223,7 @@
 
     const-string v5, "domain"
 
-    .line 55
+    .line 52
     invoke-interface {v1, v5, v4}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -247,7 +236,7 @@
 
     if-ltz v4, :cond_0
 
-    .line 56
+    .line 53
     array-length v6, v2
 
     if-ge v4, v6, :cond_0
@@ -262,119 +251,106 @@
     :goto_0
     if-nez v6, :cond_1
 
-    .line 57
+    .line 54
     sget-object v4, Lkotlin/random/Random;->Default:Lkotlin/random/Random$Default;
 
     invoke-virtual {v4, v3, v0}, Lkotlin/random/Random$Default;->nextInt(II)I
 
     move-result v4
 
-    .line 58
+    .line 55
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
-    move-result-object v3
+    move-result-object v0
 
     invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
-    move-result-object v6
-
-    invoke-interface {v3, v5, v6}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
-
     move-result-object v3
 
-    invoke-interface {v3}, Landroid/content/SharedPreferences$Editor;->apply()V
+    invoke-interface {v0, v5, v3}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 60
+    move-result-object v0
+
+    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
+
+    .line 57
     :cond_1
-    new-instance v3, Ljava/lang/StringBuilder;
+    new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v5, "https://"
+    const-string v3, "https://"
 
-    invoke-direct {v3, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     aget-object v2, v2, v4
 
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    move-result-object v2
+    move-result-object v0
 
-    iput-object v2, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiUrl:Ljava/lang/String;
+    iput-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiUrl:Ljava/lang/String;
 
-    .line 71
+    .line 68
     invoke-virtual {p0}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->headersBuilder()Lokhttp3/Headers$Builder;
 
-    move-result-object v2
+    move-result-object v0
 
-    const-string v3, "source"
+    const-string v2, "Dart/2.16(dart:io)"
 
-    const-string v4, "copyApp"
+    .line 70
+    invoke-static {v0, v2}, Leu/kanade/tachiyomi/extension/zh/copymanga/UtilsKt;->setUserAgent(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
+
+    move-result-object v0
+
+    const-string v2, "source"
+
+    const-string v3, "copyApp"
+
+    .line 71
+    invoke-virtual {v0, v2, v3}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
+
+    move-result-object v0
+
+    const-string v2, "appVersion"
+
+    const-string v3, "2.3.0"
+
+    .line 72
+    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
+
+    invoke-static {v0, v1}, Leu/kanade/tachiyomi/extension/zh/copymanga/UtilsKt;->setVersion(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
+
+    move-result-object v0
+
+    const-string v1, ""
 
     .line 73
-    invoke-virtual {v2, v3, v4}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
+    invoke-static {v0, v1}, Leu/kanade/tachiyomi/extension/zh/copymanga/UtilsKt;->setToken(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
-    move-result-object v2
+    move-result-object v0
 
-    const-string v3, "appVersion"
+    const-string v1, "platform"
 
-    const-string v4, "2.3.0"
+    const-string v2, "1"
 
     .line 74
-    invoke-interface {v1, v3, v4}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1, v2}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
-    move-result-object v3
-
-    invoke-static {v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    invoke-static {v2, v3}, Leu/kanade/tachiyomi/extension/zh/copymanga/HeadersKt;->setVersion(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
-
-    move-result-object v2
-
-    const-string v3, ""
+    move-result-object v0
 
     .line 75
-    invoke-static {v2, v3}, Leu/kanade/tachiyomi/extension/zh/copymanga/HeadersKt;->setToken(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
+    invoke-virtual {v0}, Lokhttp3/Headers$Builder;->build()Lokhttp3/Headers;
 
-    move-result-object v2
+    move-result-object v0
 
-    const-string v4, "platform"
+    iput-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiHeaders:Lokhttp3/Headers;
 
-    const-string v5, "1"
-
-    .line 76
-    invoke-virtual {v2, v4, v5}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
-
-    move-result-object v2
-
-    const-string v4, "umstring"
-
-    const-string v5, "b4c89ca4104ea9a97750314d791520ac"
-
-    .line 77
-    invoke-virtual {v2, v4, v5}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
-
-    move-result-object v2
-
-    .line 78
-    invoke-virtual {v2}, Lokhttp3/Headers$Builder;->build()Lokhttp3/Headers;
-
-    move-result-object v2
-
-    iput-object v2, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiHeaders:Lokhttp3/Headers;
-
-    .line 83
-    sget-object v2, Leu/kanade/tachiyomi/extension/zh/copymanga/MangaDto;->Companion:Leu/kanade/tachiyomi/extension/zh/copymanga/MangaDto$Companion;
-
-    const-string v4, "showSCTitle"
-
-    invoke-interface {v1, v4, v0}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
-
-    invoke-virtual {v2, v0}, Leu/kanade/tachiyomi/extension/zh/copymanga/MangaDto$Companion;->setConvertToSc$tachiyomi_zh_copymanga_v1_4_53_release(Z)V
-
-    .line 103
+    .line 96
     invoke-virtual {p0}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->getNetwork()Leu/kanade/tachiyomi/network/NetworkHelper;
 
     move-result-object v0
@@ -387,60 +363,21 @@
 
     move-result-object v0
 
-    const/4 v1, 0x0
-
-    .line 104
-    invoke-virtual {v0, v1}, Lokhttp3/OkHttpClient$Builder;->cache(Lokhttp3/Cache;)Lokhttp3/OkHttpClient$Builder;
-
-    move-result-object v0
-
-    .line 105
-    sget-object v1, Lokhttp3/CookieJar;->NO_COOKIES:Lokhttp3/CookieJar;
-
-    invoke-virtual {v0, v1}, Lokhttp3/OkHttpClient$Builder;->cookieJar(Lokhttp3/CookieJar;)Lokhttp3/OkHttpClient$Builder;
-
-    move-result-object v0
-
-    .line 106
-    invoke-virtual {v0}, Lokhttp3/OkHttpClient$Builder;->interceptors()Ljava/util/List;
-
-    move-result-object v1
-
-    sget-object v2, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$_client$1$1;->INSTANCE:Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$_client$1$1;
-
-    check-cast v2, Lkotlin/jvm/functions/Function1;
-
-    invoke-static {v1, v2}, Lkotlin/collections/CollectionsKt;->removeAll(Ljava/util/List;Lkotlin/jvm/functions/Function1;)Z
-
-    .line 107
-    sget-object v1, Leu/kanade/tachiyomi/extension/zh/copymanga/CommentsInterceptor;->INSTANCE:Leu/kanade/tachiyomi/extension/zh/copymanga/CommentsInterceptor;
+    .line 97
+    sget-object v1, Leu/kanade/tachiyomi/extension/zh/copymanga/HeadersInterceptor;->INSTANCE:Leu/kanade/tachiyomi/extension/zh/copymanga/HeadersInterceptor;
 
     check-cast v1, Lokhttp3/Interceptor;
 
-    invoke-virtual {v0, v1}, Lokhttp3/OkHttpClient$Builder;->addInterceptor(Lokhttp3/Interceptor;)Lokhttp3/OkHttpClient$Builder;
+    invoke-virtual {v0, v1}, Lokhttp3/OkHttpClient$Builder;->addNetworkInterceptor(Lokhttp3/Interceptor;)Lokhttp3/OkHttpClient$Builder;
 
     move-result-object v0
 
-    .line 108
-    new-instance v1, Leu/kanade/tachiyomi/extension/zh/copymanga/HeadersInterceptor;
-
-    invoke-direct {v1}, Leu/kanade/tachiyomi/extension/zh/copymanga/HeadersInterceptor;-><init>()V
-
-    check-cast v1, Lokhttp3/Interceptor;
-
-    invoke-virtual {v0, v1}, Lokhttp3/OkHttpClient$Builder;->addInterceptor(Lokhttp3/Interceptor;)Lokhttp3/OkHttpClient$Builder;
-
-    move-result-object v0
-
-    .line 109
+    .line 98
     invoke-virtual {v0}, Lokhttp3/OkHttpClient$Builder;->build()Lokhttp3/OkHttpClient;
 
     move-result-object v0
 
     iput-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->_client:Lokhttp3/OkHttpClient;
-
-    .line 135
-    iput-object v3, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->token:Ljava/lang/String;
 
     return-void
 .end method
@@ -448,7 +385,7 @@
 .method public static final synthetic access$getPreferences$p(Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;)Landroid/content/SharedPreferences;
     .locals 0
 
-    .line 30
+    .line 27
     iget-object p0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->preferences:Landroid/content/SharedPreferences;
 
     return-object p0
@@ -457,19 +394,10 @@
 .method public static final synthetic access$get_client$p(Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;)Lokhttp3/OkHttpClient;
     .locals 0
 
-    .line 30
+    .line 27
     iget-object p0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->_client:Lokhttp3/OkHttpClient;
 
     return-object p0
-.end method
-
-.method public static final synthetic access$setToken$p(Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;Ljava/lang/String;)V
-    .locals 0
-
-    .line 30
-    iput-object p1, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->token:Ljava/lang/String;
-
-    return-void
 .end method
 
 .method private final fetchChapterGroupTo(Ljava/util/ArrayList;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -487,7 +415,7 @@
         }
     .end annotation
 
-    .line 216
+    .line 185
     new-instance v0, Ljava/util/ArrayList;
 
     const/4 v1, 0x0
@@ -503,7 +431,7 @@
     :goto_0
     if-eqz v3, :cond_2
 
-    .line 220
+    .line 189
     new-instance v3, Ljava/lang/StringBuilder;
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
@@ -544,7 +472,7 @@
 
     move-result-object v3
 
-    .line 221
+    .line 190
     invoke-virtual {p0}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->getClient()Lokhttp3/OkHttpClient;
 
     move-result-object v5
@@ -557,7 +485,7 @@
 
     move-result-object v3
 
-    .line 297
+    .line 256
     const-class v5, Leu/kanade/tachiyomi/extension/zh/copymanga/ResultDto;
 
     sget-object v6, Lkotlin/reflect/KTypeProjection;->Companion:Lkotlin/reflect/KTypeProjection$Companion;
@@ -592,24 +520,24 @@
 
     move-result-object v3
 
-    .line 221
+    .line 190
     check-cast v3, Leu/kanade/tachiyomi/extension/zh/copymanga/ListDto;
 
-    .line 222
+    .line 191
     invoke-virtual {v3}, Leu/kanade/tachiyomi/extension/zh/copymanga/ListDto;->getTotal()I
 
     move-result v5
 
     invoke-virtual {v0, v5}, Ljava/util/ArrayList;->ensureCapacity(I)V
 
-    .line 223
+    .line 192
     invoke-virtual {v3}, Leu/kanade/tachiyomi/extension/zh/copymanga/ListDto;->getList()Ljava/util/List;
 
     move-result-object v5
 
     check-cast v5, Ljava/lang/Iterable;
 
-    .line 298
+    .line 257
     invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v5
@@ -625,24 +553,24 @@
 
     move-result-object v6
 
-    .line 299
+    .line 258
     move-object v7, v0
 
     check-cast v7, Ljava/util/Collection;
 
     check-cast v6, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterDto;
 
-    .line 223
+    .line 192
     invoke-virtual {v6, p4}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterDto;->toSChapter(Ljava/lang/String;)Leu/kanade/tachiyomi/source/model/SChapter;
 
     move-result-object v6
 
-    .line 299
+    .line 258
     invoke-interface {v7, v6}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 300
+    .line 259
     :cond_0
     move-object v5, v0
 
@@ -650,7 +578,7 @@
 
     add-int/lit16 v4, v4, 0x1f4
 
-    .line 225
+    .line 194
     invoke-virtual {v3}, Leu/kanade/tachiyomi/extension/zh/copymanga/ListDto;->getTotal()I
 
     move-result v3
@@ -666,7 +594,7 @@
 
     goto/16 :goto_0
 
-    .line 227
+    .line 196
     :cond_2
     check-cast v0, Ljava/util/List;
 
@@ -681,7 +609,7 @@
     return-void
 .end method
 
-.method private static final fetchChapterList$lambda$5(Leu/kanade/tachiyomi/source/model/SManga;Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;)Ljava/util/List;
+.method private static final fetchChapterList$lambda$3(Leu/kanade/tachiyomi/source/model/SManga;Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;)Ljava/util/List;
     .locals 12
 
     const-string v0, "$manga"
@@ -692,12 +620,12 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 196
+    .line 164
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 197
+    .line 165
     invoke-interface {p0}, Leu/kanade/tachiyomi/source/model/SManga;->getUrl()Ljava/lang/String;
 
     move-result-object v1
@@ -710,14 +638,14 @@
 
     move-result-object v1
 
-    .line 198
+    .line 166
     iget-object v2, p1, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->preferences:Landroid/content/SharedPreferences;
 
     const-string v3, "hideDefaultChapterGroup"
 
     const-string v4, ""
 
-    .line 199
+    .line 167
     invoke-interface {v2, v3, v4}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
@@ -734,7 +662,7 @@
 
     move-result-object v2
 
-    .line 200
+    .line 168
     move-object v5, v2
 
     check-cast v5, Ljava/lang/CharSequence;
@@ -759,7 +687,7 @@
     :goto_0
     if-nez v2, :cond_2
 
-    const-string v2, "\n"
+    const-string v2, "@@"
 
     filled-new-array {v2}, [Ljava/lang/String;
 
@@ -798,10 +726,10 @@
 
     if-eqz v3, :cond_4
 
-    .line 203
+    .line 171
     invoke-direct {p1, v0, v1, v2, v4}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->fetchChapterGroupTo(Ljava/util/ArrayList;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 204
+    .line 172
     invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
 
     move-result v3
@@ -819,18 +747,35 @@
 
     throw p0
 
-    .line 206
+    .line 174
     :cond_4
     :goto_2
-    invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->getClient()Lokhttp3/OkHttpClient;
+    new-instance v3, Lokhttp3/CacheControl$Builder;
+
+    invoke-direct {v3}, Lokhttp3/CacheControl$Builder;-><init>()V
+
+    const/4 v4, 0x3
+
+    sget-object v5, Ljava/util/concurrent/TimeUnit;->DAYS:Ljava/util/concurrent/TimeUnit;
+
+    invoke-virtual {v3, v4, v5}, Lokhttp3/CacheControl$Builder;->maxStale(ILjava/util/concurrent/TimeUnit;)Lokhttp3/CacheControl$Builder;
 
     move-result-object v3
 
-    invoke-virtual {p1, p0}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->mangaDetailsRequest(Leu/kanade/tachiyomi/source/model/SManga;)Lokhttp3/Request;
+    invoke-virtual {v3}, Lokhttp3/CacheControl$Builder;->build()Lokhttp3/CacheControl;
+
+    move-result-object v3
+
+    .line 175
+    invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->getClient()Lokhttp3/OkHttpClient;
+
+    move-result-object v4
+
+    invoke-direct {p1, p0, v3}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->realMangaDetailsRequest(Leu/kanade/tachiyomi/source/model/SManga;Lokhttp3/CacheControl;)Lokhttp3/Request;
 
     move-result-object p0
 
-    invoke-virtual {v3, p0}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
+    invoke-virtual {v4, p0}, Lokhttp3/OkHttpClient;->newCall(Lokhttp3/Request;)Lokhttp3/Call;
 
     move-result-object p0
 
@@ -838,7 +783,7 @@
 
     move-result-object p0
 
-    .line 311
+    .line 270
     const-class v3, Leu/kanade/tachiyomi/extension/zh/copymanga/ResultDto;
 
     sget-object v4, Lkotlin/reflect/KTypeProjection;->Companion:Lkotlin/reflect/KTypeProjection$Companion;
@@ -863,7 +808,7 @@
 
     check-cast p0, Leu/kanade/tachiyomi/extension/zh/copymanga/MangaWrapperDto;
 
-    .line 207
+    .line 176
     invoke-virtual {p0}, Leu/kanade/tachiyomi/extension/zh/copymanga/MangaWrapperDto;->getGroups()Ljava/util/LinkedHashMap;
 
     move-result-object p0
@@ -878,7 +823,7 @@
 
     invoke-static {p0, v3}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 208
+    .line 177
     invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
@@ -897,7 +842,7 @@
 
     check-cast v3, Leu/kanade/tachiyomi/extension/zh/copymanga/KeywordDto;
 
-    .line 209
+    .line 178
     invoke-virtual {v3}, Leu/kanade/tachiyomi/extension/zh/copymanga/KeywordDto;->getPath_word()Ljava/lang/String;
 
     move-result-object v4
@@ -908,7 +853,7 @@
 
     if-nez v4, :cond_5
 
-    .line 210
+    .line 179
     invoke-virtual {v3}, Leu/kanade/tachiyomi/extension/zh/copymanga/KeywordDto;->getPath_word()Ljava/lang/String;
 
     move-result-object v4
@@ -921,34 +866,17 @@
 
     goto :goto_3
 
-    .line 212
+    .line 181
     :cond_6
     check-cast v0, Ljava/util/List;
 
     return-object v0
 .end method
 
-.method private static final fetchSearchManga$lambda$2(Lkotlin/jvm/functions/Function1;Ljava/lang/Object;)Leu/kanade/tachiyomi/source/model/MangasPage;
-    .locals 1
-
-    const-string v0, "$tmp0"
-
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 141
-    invoke-interface {p0, p1}, Lkotlin/jvm/functions/Function1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    check-cast p0, Leu/kanade/tachiyomi/source/model/MangasPage;
-
-    return-object p0
-.end method
-
 .method private final getResolution()Ljava/lang/String;
     .locals 3
 
-    .line 80
+    .line 77
     iget-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->preferences:Landroid/content/SharedPreferences;
 
     const-string v1, "resolution"
@@ -964,6 +892,70 @@
     return-object v0
 .end method
 
+.method private final realMangaDetailsRequest(Leu/kanade/tachiyomi/source/model/SManga;Lokhttp3/CacheControl;)Lokhttp3/Request;
+    .locals 2
+
+    .line 154
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    iget-object v1, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiUrl:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "/api/v3/comic2/"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-interface {p1}, Leu/kanade/tachiyomi/source/model/SManga;->getUrl()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v1, "/comic/"
+
+    check-cast v1, Ljava/lang/CharSequence;
+
+    invoke-static {p1, v1}, Lkotlin/text/StringsKt;->removePrefix(Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p1, "?platform=3"
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    if-nez p2, :cond_0
+
+    .line 155
+    iget-object p2, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiHeaders:Lokhttp3/Headers;
+
+    const/4 v0, 0x4
+
+    const/4 v1, 0x0
+
+    invoke-static {p1, p2, v1, v0, v1}, Leu/kanade/tachiyomi/network/RequestsKt;->GET$default(Ljava/lang/String;Lokhttp3/Headers;Lokhttp3/CacheControl;ILjava/lang/Object;)Lokhttp3/Request;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_0
+    iget-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiHeaders:Lokhttp3/Headers;
+
+    invoke-static {p1, v0, p2}, Leu/kanade/tachiyomi/network/RequestsKt;->GET(Ljava/lang/String;Lokhttp3/Headers;Lokhttp3/CacheControl;)Lokhttp3/Request;
+
+    move-result-object p1
+
+    :goto_0
+    return-object p1
+.end method
+
 
 # virtual methods
 .method protected chapterListParse(Lokhttp3/Response;)Ljava/lang/Void;
@@ -973,7 +965,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 231
+    .line 200
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -984,7 +976,7 @@
 .method public bridge synthetic chapterListParse(Lokhttp3/Response;)Ljava/util/List;
     .locals 0
 
-    .line 30
+    .line 27
     invoke-virtual {p0, p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->chapterListParse(Lokhttp3/Response;)Ljava/lang/Void;
 
     move-result-object p1
@@ -1001,7 +993,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 230
+    .line 199
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -1012,7 +1004,7 @@
 .method public bridge synthetic chapterListRequest(Leu/kanade/tachiyomi/source/model/SManga;)Lokhttp3/Request;
     .locals 0
 
-    .line 30
+    .line 27
     invoke-virtual {p0, p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->chapterListRequest(Leu/kanade/tachiyomi/source/model/SManga;)Ljava/lang/Void;
 
     move-result-object p1
@@ -1040,10 +1032,10 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 195
-    new-instance v0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$$ExternalSyntheticLambda1;
+    .line 163
+    new-instance v0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$$ExternalSyntheticLambda0;
 
-    invoke-direct {v0, p1, p0}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$$ExternalSyntheticLambda1;-><init>(Leu/kanade/tachiyomi/source/model/SManga;Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;)V
+    invoke-direct {v0, p1, p0}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$$ExternalSyntheticLambda0;-><init>(Leu/kanade/tachiyomi/source/model/SManga;Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;)V
 
     invoke-static {v0}, Lrx/Observable;->fromCallable(Ljava/util/concurrent/Callable;)Lrx/Observable;
 
@@ -1056,105 +1048,10 @@
     return-object p1
 .end method
 
-.method public fetchSearchManga(ILjava/lang/String;Leu/kanade/tachiyomi/source/model/FilterList;)Lrx/Observable;
-    .locals 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(I",
-            "Ljava/lang/String;",
-            "Leu/kanade/tachiyomi/source/model/FilterList;",
-            ")",
-            "Lrx/Observable<",
-            "Leu/kanade/tachiyomi/source/model/MangasPage;",
-            ">;"
-        }
-    .end annotation
-
-    const-string v0, "query"
-
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "filters"
-
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 v0, 0x1
-
-    if-ne p1, v0, :cond_1
-
-    .line 138
-    move-object v0, p2
-
-    check-cast v0, Ljava/lang/CharSequence;
-
-    invoke-static {v0}, Lkotlin/text/StringsKt;->isBlank(Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    if-nez v0, :cond_1
-
-    iget-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->preferences:Landroid/content/SharedPreferences;
-
-    const-string v1, "loginSearch2"
-
-    const/4 v2, 0x0
-
-    invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    goto :goto_0
-
-    .line 141
-    :cond_0
-    invoke-static {}, Leu/kanade/tachiyomi/extension/zh/copymanga/TokenKt;->getToken()Lrx/Observable;
-
-    move-result-object v0
-
-    invoke-static {}, Lrx/schedulers/Schedulers;->io()Lrx/Scheduler;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Lrx/Observable;->observeOn(Lrx/Scheduler;)Lrx/Observable;
-
-    move-result-object v0
-
-    new-instance v1, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$fetchSearchManga$1;
-
-    invoke-direct {v1, p0, p1, p2, p3}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$fetchSearchManga$1;-><init>(Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;ILjava/lang/String;Leu/kanade/tachiyomi/source/model/FilterList;)V
-
-    check-cast v1, Lkotlin/jvm/functions/Function1;
-
-    new-instance p1, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$$ExternalSyntheticLambda0;
-
-    invoke-direct {p1, v1}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga$$ExternalSyntheticLambda0;-><init>(Lkotlin/jvm/functions/Function1;)V
-
-    invoke-virtual {v0, p1}, Lrx/Observable;->map(Lrx/functions/Func1;)Lrx/Observable;
-
-    move-result-object p1
-
-    const-string p2, "override fun fetchSearch\u2026xecute())\n        }\n    }"
-
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullExpressionValue(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object p1
-
-    .line 139
-    :cond_1
-    :goto_0
-    invoke-super {p0, p1, p2, p3}, Leu/kanade/tachiyomi/source/online/HttpSource;->fetchSearchManga(ILjava/lang/String;Leu/kanade/tachiyomi/source/model/FilterList;)Lrx/Observable;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
 .method public final getApiHeaders()Lokhttp3/Headers;
     .locals 1
 
-    .line 71
+    .line 68
     iget-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiHeaders:Lokhttp3/Headers;
 
     return-object v0
@@ -1163,7 +1060,7 @@
 .method public final getApiUrl()Ljava/lang/String;
     .locals 1
 
-    .line 51
+    .line 48
     iget-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiUrl:Ljava/lang/String;
 
     return-object v0
@@ -1184,7 +1081,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 233
+    .line 202
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "https://www.copy20.com"
@@ -1207,7 +1104,7 @@
 .method public getClient()Lokhttp3/OkHttpClient;
     .locals 9
 
-    .line 113
+    .line 102
     invoke-static {}, Leu/kanade/tachiyomi/extension/zh/copymanga/VersionUpdaterKt;->isVersionUpdated()Z
 
     move-result v0
@@ -1238,7 +1135,7 @@
 
     invoke-static/range {v1 .. v8}, Lkotlin/concurrent/ThreadsKt;->thread$default(ZZLjava/lang/ClassLoader;Ljava/lang/String;ILkotlin/jvm/functions/Function0;ILjava/lang/Object;)Ljava/lang/Thread;
 
-    .line 114
+    .line 103
     :cond_0
     iget-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->_client:Lokhttp3/OkHttpClient;
 
@@ -1248,7 +1145,7 @@
 .method public getFilterList()Leu/kanade/tachiyomi/source/model/FilterList;
     .locals 1
 
-    .line 276
+    .line 236
     invoke-static {p0}, Leu/kanade/tachiyomi/extension/zh/copymanga/FiltersKt;->getFilterList(Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;)Leu/kanade/tachiyomi/source/model/FilterList;
 
     move-result-object v0
@@ -1259,7 +1156,7 @@
 .method public getLang()Ljava/lang/String;
     .locals 1
 
-    .line 32
+    .line 29
     iget-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->lang:Ljava/lang/String;
 
     return-object v0
@@ -1272,7 +1169,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 185
+    .line 151
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "https://www.copy20.com"
@@ -1295,7 +1192,7 @@
 .method public getName()Ljava/lang/String;
     .locals 1
 
-    .line 31
+    .line 28
     iget-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->name:Ljava/lang/String;
 
     return-object v0
@@ -1304,7 +1201,7 @@
 .method public getSupportsLatest()Z
     .locals 1
 
-    .line 33
+    .line 30
     iget-boolean v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->supportsLatest:Z
 
     return v0
@@ -1313,21 +1210,21 @@
 .method protected headersBuilder()Lokhttp3/Headers$Builder;
     .locals 3
 
-    .line 63
+    .line 60
     new-instance v0, Lokhttp3/Headers$Builder;
 
     invoke-direct {v0}, Lokhttp3/Headers$Builder;-><init>()V
 
     const-string v1, "http.agent"
 
-    .line 64
+    .line 61
     invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-static {v1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
-    invoke-static {v0, v1}, Leu/kanade/tachiyomi/extension/zh/copymanga/HeadersKt;->setUserAgent(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
+    invoke-static {v0, v1}, Leu/kanade/tachiyomi/extension/zh/copymanga/UtilsKt;->setUserAgent(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
     move-result-object v0
 
@@ -1335,7 +1232,7 @@
 
     const-string v2, "1"
 
-    .line 69
+    .line 66
     invoke-virtual {v0, v1, v2}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
     move-result-object v0
@@ -1344,88 +1241,39 @@
 .end method
 
 .method protected imageRequest(Leu/kanade/tachiyomi/source/model/Page;)Lokhttp3/Request;
-    .locals 3
+    .locals 2
 
     const-string v0, "page"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 266
+    .line 232
     invoke-virtual {p1}, Leu/kanade/tachiyomi/source/model/Page;->getImageUrl()Ljava/lang/String;
 
-    move-result-object v0
-
-    invoke-static {v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
-
-    .line 267
-    invoke-virtual {p1}, Leu/kanade/tachiyomi/source/model/Page;->getUrl()Ljava/lang/String;
-
     move-result-object p1
 
-    const-string v1, "chapterComments"
+    invoke-static {p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNull(Ljava/lang/Object;)V
 
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    move-result p1
-
-    const/4 v1, 0x0
-
-    if-eqz p1, :cond_0
-
-    .line 268
-    iget-object p1, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiHeaders:Lokhttp3/Headers;
-
-    const/4 v2, 0x4
-
-    invoke-static {v0, p1, v1, v2, v1}, Leu/kanade/tachiyomi/network/RequestsKt;->GET$default(Ljava/lang/String;Lokhttp3/Headers;Lokhttp3/CacheControl;ILjava/lang/Object;)Lokhttp3/Request;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Lokhttp3/Request;->newBuilder()Lokhttp3/Request$Builder;
-
-    move-result-object p1
-
-    const-class v0, Leu/kanade/tachiyomi/extension/zh/copymanga/CommentsInterceptor$Tag;
-
-    invoke-static {v0}, Lkotlin/jvm/internal/Reflection;->getOrCreateKotlinClass(Ljava/lang/Class;)Lkotlin/reflect/KClass;
-
-    move-result-object v0
-
-    .line 269
-    new-instance v1, Leu/kanade/tachiyomi/extension/zh/copymanga/CommentsInterceptor$Tag;
-
-    invoke-direct {v1}, Leu/kanade/tachiyomi/extension/zh/copymanga/CommentsInterceptor$Tag;-><init>()V
-
-    invoke-virtual {p1, v0, v1}, Lokhttp3/Request$Builder;->tag(Lkotlin/reflect/KClass;Ljava/lang/Object;)Lokhttp3/Request$Builder;
-
-    move-result-object p1
-
-    .line 270
-    invoke-virtual {p1}, Lokhttp3/Request$Builder;->build()Lokhttp3/Request;
-
-    move-result-object p1
-
-    return-object p1
-
-    .line 273
-    :cond_0
+    .line 233
     invoke-static {}, Leu/kanade/tachiyomi/extension/zh/copymanga/ConstantsKt;->getResolutionRegex()Lkotlin/text/Regex;
 
-    move-result-object p1
+    move-result-object v0
 
-    check-cast v0, Ljava/lang/CharSequence;
+    check-cast p1, Ljava/lang/CharSequence;
 
     invoke-direct {p0}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->getResolution()Ljava/lang/String;
 
-    move-result-object v2
+    move-result-object v1
 
-    invoke-virtual {p1, v0, v2}, Lkotlin/text/Regex;->replaceFirst(Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p1, v1}, Lkotlin/text/Regex;->replaceFirst(Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    const/4 v0, 0x6
+    const/4 v0, 0x0
 
-    invoke-static {p1, v1, v1, v0, v1}, Leu/kanade/tachiyomi/network/RequestsKt;->GET$default(Ljava/lang/String;Lokhttp3/Headers;Lokhttp3/CacheControl;ILjava/lang/Object;)Lokhttp3/Request;
+    const/4 v1, 0x6
+
+    invoke-static {p1, v0, v0, v1, v0}, Leu/kanade/tachiyomi/network/RequestsKt;->GET$default(Ljava/lang/String;Lokhttp3/Headers;Lokhttp3/CacheControl;ILjava/lang/Object;)Lokhttp3/Request;
 
     move-result-object p1
 
@@ -1435,7 +1283,7 @@
 .method public bridge synthetic imageUrlParse(Lokhttp3/Response;)Ljava/lang/String;
     .locals 0
 
-    .line 30
+    .line 27
     invoke-virtual {p0, p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->imageUrlParse(Lokhttp3/Response;)Ljava/lang/Void;
 
     move-result-object p1
@@ -1452,7 +1300,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 263
+    .line 229
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
     invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
@@ -1467,7 +1315,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 133
+    .line 122
     invoke-virtual {p0, p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->popularMangaParse(Lokhttp3/Response;)Leu/kanade/tachiyomi/source/model/MangasPage;
 
     move-result-object p1
@@ -1482,7 +1330,7 @@
 
     mul-int/lit8 p1, p1, 0x1e
 
-    .line 130
+    .line 119
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1521,7 +1369,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 296
+    .line 255
     const-class v0, Leu/kanade/tachiyomi/extension/zh/copymanga/ResultDto;
 
     sget-object v1, Lkotlin/reflect/KTypeProjection;->Companion:Lkotlin/reflect/KTypeProjection$Companion;
@@ -1546,7 +1394,7 @@
 
     check-cast p1, Leu/kanade/tachiyomi/extension/zh/copymanga/MangaWrapperDto;
 
-    .line 193
+    .line 161
     invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/MangaWrapperDto;->toSMangaDetails()Leu/kanade/tachiyomi/source/model/SManga;
 
     move-result-object p1
@@ -1555,55 +1403,16 @@
 .end method
 
 .method public mangaDetailsRequest(Leu/kanade/tachiyomi/source/model/SManga;)Lokhttp3/Request;
-    .locals 3
+    .locals 1
 
     const-string v0, "manga"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 188
-    new-instance v0, Ljava/lang/StringBuilder;
+    const/4 v0, 0x0
 
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    iget-object v1, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiUrl:Ljava/lang/String;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v1, "/api/v3/comic2/"
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-interface {p1}, Leu/kanade/tachiyomi/source/model/SManga;->getUrl()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v1, "/comic/"
-
-    check-cast v1, Ljava/lang/CharSequence;
-
-    invoke-static {p1, v1}, Lkotlin/text/StringsKt;->removePrefix(Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p1, "?platform=3"
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    .line 189
-    iget-object v0, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiHeaders:Lokhttp3/Headers;
-
-    const/4 v1, 0x0
-
-    const/4 v2, 0x4
-
-    invoke-static {p1, v0, v1, v2, v1}, Leu/kanade/tachiyomi/network/RequestsKt;->GET$default(Ljava/lang/String;Lokhttp3/Headers;Lokhttp3/CacheControl;ILjava/lang/Object;)Lokhttp3/Request;
+    .line 158
+    invoke-direct {p0, p1, v0}, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->realMangaDetailsRequest(Leu/kanade/tachiyomi/source/model/SManga;Lokhttp3/CacheControl;)Lokhttp3/Request;
 
     move-result-object p1
 
@@ -1611,7 +1420,7 @@
 .end method
 
 .method protected pageListParse(Lokhttp3/Response;)Ljava/util/List;
-    .locals 11
+    .locals 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1627,7 +1436,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 301
+    .line 260
     const-class v0, Leu/kanade/tachiyomi/extension/zh/copymanga/ResultDto;
 
     sget-object v1, Lkotlin/reflect/KTypeProjection;->Companion:Lkotlin/reflect/KTypeProjection$Companion;
@@ -1650,145 +1459,145 @@
 
     move-result-object p1
 
-    .line 239
+    .line 208
     check-cast p1, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListWrapperDto;
 
-    .line 240
+    .line 209
     invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListWrapperDto;->getShow_app()Z
 
     move-result v0
 
     const-string v1, "\u52a0\u8f7d\u5931\u8d25\uff0c\u5982\u679c\u91cd\u8bd5\u65e0\u6548\u8bf7\u5728 GitHub \u4e0a\u53cd\u9988"
 
-    if-nez v0, :cond_6
+    if-nez v0, :cond_5
 
-    .line 244
+    .line 213
     invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListWrapperDto;->getChapter()Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListDto;
 
-    move-result-object v0
+    move-result-object p1
 
-    .line 245
-    invoke-virtual {v0}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListDto;->getContents()Ljava/util/List;
-
-    move-result-object v2
-
-    check-cast v2, Ljava/lang/Iterable;
-
-    invoke-virtual {v0}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListDto;->getWords()Ljava/util/List;
+    .line 214
+    invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListDto;->getContents()Ljava/util/List;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/Iterable;
 
-    .line 302
-    invoke-interface {v2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListDto;->getWords()Ljava/util/List;
+
+    move-result-object p1
+
+    check-cast p1, Ljava/lang/Iterable;
+
+    .line 261
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object v2
+
+    .line 262
+    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
 
-    .line 303
-    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+    .line 263
+    new-instance v4, Ljava/util/ArrayList;
 
-    move-result-object v4
+    const/16 v5, 0xa
 
-    .line 304
-    new-instance v5, Ljava/util/ArrayList;
-
-    const/16 v6, 0xa
-
-    invoke-static {v2, v6}, Lkotlin/collections/CollectionsKt;->collectionSizeOrDefault(Ljava/lang/Iterable;I)I
-
-    move-result v2
-
-    invoke-static {v0, v6}, Lkotlin/collections/CollectionsKt;->collectionSizeOrDefault(Ljava/lang/Iterable;I)I
+    invoke-static {v0, v5}, Lkotlin/collections/CollectionsKt;->collectionSizeOrDefault(Ljava/lang/Iterable;I)I
 
     move-result v0
 
-    invoke-static {v2, v0}, Ljava/lang/Math;->min(II)I
+    invoke-static {p1, v5}, Lkotlin/collections/CollectionsKt;->collectionSizeOrDefault(Ljava/lang/Iterable;I)I
 
-    move-result v0
+    move-result p1
 
-    invoke-direct {v5, v0}, Ljava/util/ArrayList;-><init>(I)V
+    invoke-static {v0, p1}, Ljava/lang/Math;->min(II)I
 
-    .line 305
+    move-result p1
+
+    invoke-direct {v4, p1}, Ljava/util/ArrayList;-><init>(I)V
+
+    .line 264
     :goto_0
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_2
+
     invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
 
-    move-result v0
+    move-result p1
 
-    const/4 v2, 0x0
+    if-eqz p1, :cond_2
 
-    if-eqz v0, :cond_2
+    .line 265
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
+    move-result-object p1
 
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    .line 306
     invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    check-cast v0, Ljava/lang/Number;
 
-    move-result-object v6
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
 
-    check-cast v6, Ljava/lang/Number;
+    move-result v0
 
-    invoke-virtual {v6}, Ljava/lang/Number;->intValue()I
+    check-cast p1, Leu/kanade/tachiyomi/extension/zh/copymanga/UrlDto;
 
-    move-result v6
+    .line 215
+    invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/UrlDto;->getUrl()Ljava/lang/String;
 
-    check-cast v0, Leu/kanade/tachiyomi/extension/zh/copymanga/UrlDto;
+    move-result-object p1
 
-    .line 246
-    invoke-virtual {v0}, Leu/kanade/tachiyomi/extension/zh/copymanga/UrlDto;->getUrl()Ljava/lang/String;
+    const/4 v5, 0x0
 
-    move-result-object v0
+    if-nez p1, :cond_0
 
-    const/4 v7, 0x0
+    new-instance p1, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;
 
-    if-nez v0, :cond_0
-
-    new-instance v0, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;
-
-    invoke-direct {v0, v6, v7}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;-><init>(ILjava/lang/String;)V
+    invoke-direct {p1, v0, v5}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;-><init>(ILjava/lang/String;)V
 
     goto :goto_1
 
-    .line 247
+    .line 216
     :cond_0
-    move-object v8, v0
+    move-object v6, p1
 
-    check-cast v8, Ljava/lang/CharSequence;
+    check-cast v6, Ljava/lang/CharSequence;
 
-    const-string v9, "tachiyomi"
+    const-string v7, "tachiyomi"
 
-    check-cast v9, Ljava/lang/CharSequence;
+    check-cast v7, Ljava/lang/CharSequence;
 
-    const/4 v10, 0x2
+    const/4 v8, 0x0
 
-    invoke-static {v8, v9, v2, v10, v7}, Lkotlin/text/StringsKt;->contains$default(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    const/4 v9, 0x2
 
-    move-result v2
+    invoke-static {v6, v7, v8, v9, v5}, Lkotlin/text/StringsKt;->contains$default(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
-    if-nez v2, :cond_1
+    move-result v5
 
-    .line 248
-    new-instance v2, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;
+    if-nez v5, :cond_1
 
-    invoke-direct {v2, v6, v0}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;-><init>(ILjava/lang/String;)V
+    .line 217
+    new-instance v5, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;
 
-    move-object v0, v2
+    invoke-direct {v5, v0, p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;-><init>(ILjava/lang/String;)V
 
-    .line 306
+    move-object p1, v5
+
+    .line 265
     :goto_1
-    invoke-virtual {v5, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v4, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
-    .line 247
+    .line 216
     :cond_1
     new-instance p1, Ljava/lang/Exception;
 
@@ -1796,130 +1605,69 @@
 
     throw p1
 
-    .line 308
+    .line 267
     :cond_2
-    check-cast v5, Ljava/util/List;
+    check-cast v4, Ljava/util/List;
 
-    .line 244
-    check-cast v5, Ljava/util/ArrayList;
+    .line 213
+    check-cast v4, Ljava/util/ArrayList;
 
-    .line 251
-    move-object v0, v5
+    .line 220
+    move-object p1, v4
 
-    check-cast v0, Ljava/util/List;
+    check-cast p1, Ljava/util/List;
 
-    invoke-static {v0}, Lkotlin/collections/CollectionsKt;->sort(Ljava/util/List;)V
+    invoke-static {p1}, Lkotlin/collections/CollectionsKt;->sort(Ljava/util/List;)V
 
-    .line 252
-    invoke-virtual {v5}, Ljava/util/ArrayList;->size()I
+    .line 221
+    invoke-virtual {v4}, Ljava/util/ArrayList;->size()I
 
-    move-result v0
+    move-result p1
 
-    add-int/lit8 v0, v0, 0x1
+    add-int/lit8 p1, p1, 0x1
 
-    invoke-static {v0}, Lkotlin/collections/CollectionsKt;->createListBuilder(I)Ljava/util/List;
+    invoke-static {p1}, Lkotlin/collections/CollectionsKt;->createListBuilder(I)Ljava/util/List;
+
+    move-result-object p1
+
+    .line 222
+    invoke-virtual {v4}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
-    .line 253
-    invoke-virtual {v5}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-
-    move-result-object v1
-
     :cond_3
     :goto_2
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v3
-
-    if-eqz v3, :cond_4
-
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;
-
-    .line 254
-    invoke-virtual {v3}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;->getUrl()Ljava/lang/String;
-
-    move-result-object v7
-
-    if-eqz v7, :cond_3
-
-    .line 255
-    new-instance v3, Leu/kanade/tachiyomi/source/model/Page;
-
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    move-result v5
-
-    const/4 v6, 0x0
-
-    const/4 v8, 0x0
-
-    const/16 v9, 0xa
-
-    const/4 v10, 0x0
-
-    move-object v4, v3
-
-    invoke-direct/range {v4 .. v10}, Leu/kanade/tachiyomi/source/model/Page;-><init>(ILjava/lang/String;Ljava/lang/String;Landroid/net/Uri;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
-
-    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    goto :goto_2
-
-    .line 257
-    :cond_4
-    iget-object v1, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->preferences:Landroid/content/SharedPreferences;
-
-    const-string v3, "chapterComments"
-
-    invoke-interface {v1, v3, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
 
-    if-eqz v1, :cond_5
+    if-eqz v1, :cond_4
 
-    .line 258
-    new-instance v1, Leu/kanade/tachiyomi/source/model/Page;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    invoke-interface {v0}, Ljava/util/List;->size()I
+    move-result-object v1
 
-    move-result v3
+    check-cast v1, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;
 
-    const-string v4, "chapterComments"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    iget-object v5, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiUrl:Ljava/lang/String;
-
-    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string v5, "/api/v3/roasts?limit=50&chapter_id="
-
-    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListWrapperDto;->getChapter()Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListDto;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListDto;->getUuid()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 223
+    invoke-virtual {v1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPage;->getUrl()Ljava/lang/String;
 
     move-result-object v5
 
+    if-eqz v5, :cond_3
+
+    .line 224
+    new-instance v1, Leu/kanade/tachiyomi/source/model/Page;
+
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    move-result v3
+
+    const/4 v4, 0x0
+
     const/4 v6, 0x0
 
-    const/16 v7, 0x8
+    const/16 v7, 0xa
 
     const/4 v8, 0x0
 
@@ -1927,18 +1675,20 @@
 
     invoke-direct/range {v2 .. v8}, Leu/kanade/tachiyomi/source/model/Page;-><init>(ILjava/lang/String;Ljava/lang/String;Landroid/net/Uri;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
 
-    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 252
-    :cond_5
-    invoke-static {v0}, Lkotlin/collections/CollectionsKt;->build(Ljava/util/List;)Ljava/util/List;
+    goto :goto_2
+
+    .line 221
+    :cond_4
+    invoke-static {p1}, Lkotlin/collections/CollectionsKt;->build(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
     return-object p1
 
-    .line 241
-    :cond_6
+    .line 210
+    :cond_5
     new-instance p1, Ljava/lang/Exception;
 
     invoke-direct {p1, v1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
@@ -1953,7 +1703,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 236
+    .line 205
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2014,7 +1764,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 286
+    .line 245
     const-class v0, Leu/kanade/tachiyomi/extension/zh/copymanga/ResultDto;
 
     sget-object v1, Lkotlin/reflect/KTypeProjection;->Companion:Lkotlin/reflect/KTypeProjection$Companion;
@@ -2049,10 +1799,10 @@
 
     move-result-object p1
 
-    .line 123
+    .line 112
     check-cast p1, Leu/kanade/tachiyomi/extension/zh/copymanga/ListDto;
 
-    .line 124
+    .line 113
     invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ListDto;->getOffset()I
 
     move-result v0
@@ -2076,7 +1826,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 125
+    .line 114
     :goto_0
     invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ListDto;->getList()Ljava/util/List;
 
@@ -2084,7 +1834,7 @@
 
     check-cast p1, Ljava/lang/Iterable;
 
-    .line 287
+    .line 246
     new-instance v1, Ljava/util/ArrayList;
 
     const/16 v2, 0xa
@@ -2097,7 +1847,7 @@
 
     check-cast v1, Ljava/util/Collection;
 
-    .line 288
+    .line 247
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2113,24 +1863,24 @@
 
     move-result-object v2
 
-    .line 289
+    .line 248
     check-cast v2, Leu/kanade/tachiyomi/extension/zh/copymanga/MangaWrapperDto;
 
-    .line 125
+    .line 114
     invoke-virtual {v2}, Leu/kanade/tachiyomi/extension/zh/copymanga/MangaWrapperDto;->toSManga()Leu/kanade/tachiyomi/source/model/SManga;
 
     move-result-object v2
 
-    .line 289
+    .line 248
     invoke-interface {v1, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 290
+    .line 249
     :cond_1
     check-cast v1, Ljava/util/List;
 
-    .line 125
+    .line 114
     new-instance p1, Leu/kanade/tachiyomi/source/model/MangasPage;
 
     invoke-direct {p1, v1, v0}, Leu/kanade/tachiyomi/source/model/MangasPage;-><init>(Ljava/util/List;Z)V
@@ -2145,7 +1895,7 @@
 
     mul-int/lit8 p1, p1, 0x1e
 
-    .line 119
+    .line 108
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -2184,7 +1934,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 179
+    .line 145
     invoke-virtual {p1}, Lokhttp3/Response;->request()Lokhttp3/Request;
 
     move-result-object v0
@@ -2215,7 +1965,7 @@
 
     return-object p1
 
-    .line 291
+    .line 250
     :cond_0
     const-class v0, Leu/kanade/tachiyomi/extension/zh/copymanga/ResultDto;
 
@@ -2251,10 +2001,10 @@
 
     move-result-object p1
 
-    .line 180
+    .line 146
     check-cast p1, Leu/kanade/tachiyomi/extension/zh/copymanga/ListDto;
 
-    .line 181
+    .line 147
     invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ListDto;->getOffset()I
 
     move-result v0
@@ -2278,7 +2028,7 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 182
+    .line 148
     :goto_0
     invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ListDto;->getList()Ljava/util/List;
 
@@ -2286,7 +2036,7 @@
 
     check-cast p1, Ljava/lang/Iterable;
 
-    .line 292
+    .line 251
     new-instance v1, Ljava/util/ArrayList;
 
     const/16 v2, 0xa
@@ -2299,7 +2049,7 @@
 
     check-cast v1, Ljava/util/Collection;
 
-    .line 293
+    .line 252
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -2315,24 +2065,24 @@
 
     move-result-object v2
 
-    .line 294
+    .line 253
     check-cast v2, Leu/kanade/tachiyomi/extension/zh/copymanga/MangaDto;
 
-    .line 182
+    .line 148
     invoke-virtual {v2}, Leu/kanade/tachiyomi/extension/zh/copymanga/MangaDto;->toSManga()Leu/kanade/tachiyomi/source/model/SManga;
 
     move-result-object v2
 
-    .line 294
+    .line 253
     invoke-interface {v1, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_1
 
-    .line 295
+    .line 254
     :cond_2
     check-cast v1, Ljava/util/List;
 
-    .line 182
+    .line 148
     new-instance p1, Leu/kanade/tachiyomi/source/model/MangasPage;
 
     invoke-direct {p1, v1, v0}, Leu/kanade/tachiyomi/source/model/MangasPage;-><init>(Ljava/util/List;Z)V
@@ -2351,7 +2101,7 @@
 
     invoke-static {p3, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 158
+    .line 125
     sget-object v0, Lokhttp3/HttpUrl;->Companion:Lokhttp3/HttpUrl$Companion;
 
     iget-object v1, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiUrl:Ljava/lang/String;
@@ -2364,7 +2114,7 @@
 
     move-result-object v0
 
-    .line 160
+    .line 127
     move-object v1, p2
 
     check-cast v1, Ljava/lang/CharSequence;
@@ -2385,12 +2135,12 @@
 
     const-string v1, "api/v3/search/comic"
 
-    .line 161
+    .line 128
     invoke-virtual {v0, v1}, Lokhttp3/HttpUrl$Builder;->addEncodedPathSegments(Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object v1
 
-    .line 162
+    .line 129
     invoke-virtual {v1, v4, v3}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object v1
@@ -2399,7 +2149,7 @@
 
     mul-int/lit8 p1, p1, 0x1e
 
-    .line 163
+    .line 130
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2410,7 +2160,7 @@
 
     const-string v1, "q"
 
-    .line 164
+    .line 131
     invoke-virtual {p1, v1, p2}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
@@ -2419,17 +2169,17 @@
 
     const-string v1, "1"
 
-    .line 166
+    .line 133
     invoke-virtual {p1, p2, v1}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
     move-result-object p1
 
-    .line 167
+    .line 134
     invoke-static {p1, p3}, Leu/kanade/tachiyomi/extension/zh/copymanga/FiltersKt;->addSearchQuery(Lokhttp3/HttpUrl$Builder;Leu/kanade/tachiyomi/source/model/FilterList;)V
 
     goto :goto_0
 
-    .line 170
+    .line 137
     :cond_0
     invoke-virtual {v0, v4, v3}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;
 
@@ -2439,7 +2189,7 @@
 
     mul-int/lit8 p1, p1, 0x1e
 
-    .line 171
+    .line 138
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
@@ -2448,37 +2198,22 @@
 
     move-result-object p1
 
-    .line 172
+    .line 139
     invoke-static {p1, p3}, Leu/kanade/tachiyomi/extension/zh/copymanga/FiltersKt;->addCategoryQueries(Lokhttp3/HttpUrl$Builder;Leu/kanade/tachiyomi/source/model/FilterList;)V
 
-    .line 174
+    .line 141
     :goto_0
-    iget-object p1, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiHeaders:Lokhttp3/Headers;
-
-    invoke-virtual {p1}, Lokhttp3/Headers;->newBuilder()Lokhttp3/Headers$Builder;
-
-    move-result-object p1
-
-    iget-object p2, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->token:Ljava/lang/String;
-
-    invoke-static {p1, p2}, Leu/kanade/tachiyomi/extension/zh/copymanga/HeadersKt;->setToken(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Lokhttp3/Headers$Builder;->build()Lokhttp3/Headers;
-
-    move-result-object p1
-
-    .line 175
     invoke-virtual {v0}, Lokhttp3/HttpUrl$Builder;->build()Lokhttp3/HttpUrl;
 
-    move-result-object p2
+    move-result-object p1
+
+    iget-object p2, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiHeaders:Lokhttp3/Headers;
 
     const/4 p3, 0x4
 
     const/4 v0, 0x0
 
-    invoke-static {p2, p1, v0, p3, v0}, Leu/kanade/tachiyomi/network/RequestsKt;->GET$default(Lokhttp3/HttpUrl;Lokhttp3/Headers;Lokhttp3/CacheControl;ILjava/lang/Object;)Lokhttp3/Request;
+    invoke-static {p1, p2, v0, p3, v0}, Leu/kanade/tachiyomi/network/RequestsKt;->GET$default(Lokhttp3/HttpUrl;Lokhttp3/Headers;Lokhttp3/CacheControl;ILjava/lang/Object;)Lokhttp3/Request;
 
     move-result-object p1
 
@@ -2492,7 +2227,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 71
+    .line 68
     iput-object p1, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiHeaders:Lokhttp3/Headers;
 
     return-void
@@ -2505,7 +2240,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 51
+    .line 48
     iput-object p1, p0, Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;->apiUrl:Ljava/lang/String;
 
     return-void
@@ -2518,7 +2253,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 279
+    .line 239
     invoke-virtual {p1}, Landroidx/preference/PreferenceScreen;->getContext()Landroid/content/Context;
 
     move-result-object v0
@@ -2531,7 +2266,7 @@
 
     move-result-object v0
 
-    .line 309
+    .line 268
     array-length v1, v0
 
     const/4 v2, 0x0
@@ -2541,7 +2276,7 @@
 
     aget-object v3, v0, v2
 
-    .line 279
+    .line 239
     invoke-virtual {p1, v3}, Landroidx/preference/PreferenceScreen;->addPreference(Landroidx/preference/Preference;)Z
 
     add-int/lit8 v2, v2, 0x1

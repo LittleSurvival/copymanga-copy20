@@ -118,53 +118,15 @@
     .locals 2
 
     const-string v0, "<this>"
-
     invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "version"
-
     invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 9
-    invoke-virtual {p0, v0, p1}, Lokhttp3/Headers$Builder;->set(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
+    # 使用固定 PC 瀏覽器 User-Agent
+    const-string v1, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+    invoke-static {p0, v1}, Leu/kanade/tachiyomi/extension/zh/copymanga/HeadersKt;->setUserAgent(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
     move-result-object p0
-
-    .line 10
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, "COPY/"
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {p0, v0}, Leu/kanade/tachiyomi/extension/zh/copymanga/HeadersKt;->setUserAgent(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
-
-    move-result-object p0
-
-    .line 11
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    const-string v1, "com.copymanga.app-"
-
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v0, "Referer"
-
-    invoke-virtual {p0, v0, p1}, Lokhttp3/Headers$Builder;->set(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
-
-    move-result-object p0
-
     return-object p0
 .end method

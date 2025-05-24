@@ -1,5 +1,5 @@
 ## 說明 
-[**stevenyomi/copymanga**](https://github.com/stevenyomi/copymanga) 的延伸版 ，由於原作者已一年以上未更新，我們基於其程式碼進行逆向與修補
+[**stevenyomi/copymanga**](https://github.com/LittleSurvival/copymanga-copy20) 的延伸版 ，由於原作者已一年以上未更新，我們基於其程式碼進行逆向與修補
 使擴充套件能夠支援新域名 **https://www.copy20.com** 。
 
 ## 用法

@@ -79,7 +79,7 @@
 
     invoke-direct {v1, p1}, Landroidx/preference/EditTextPreference;-><init>(Landroid/content/Context;)V
 
-    const-string v2, "https://github.com/stevenyomi/copymanga"
+    const-string v2, "https://github.com/LittleSurvival/copymanga-copy20"
 
     .line 12
     invoke-virtual {v1, v2}, Landroidx/preference/EditTextPreference;->setKey(Ljava/lang/String;)V
@@ -153,7 +153,6 @@
     invoke-virtual {v1, v5}, Landroidx/preference/ListPreference;->setSummary(Ljava/lang/CharSequence;)V
 
     #Changed Part |start|
-
     .line 42
     array-length v5, v4
 
