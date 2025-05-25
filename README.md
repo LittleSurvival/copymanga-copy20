@@ -1,6 +1,5 @@
 ## 說明 
-[**stevenyomi/copymanga**](https://github.com/stevenyomi/copymanga) 的延伸版 ，由於原作者已一年以上未更新，敝人基於其插件進行逆向與修補
-使擴充套件能夠支援新域名 **https://www.copy20.com** 。
+[**stevenyomi/copymanga**](https://github.com/stevenyomi/copymanga) 的延伸版 ，由於原作者已一年以上未更新，敝人基於其插件進行逆向與修補，使擴充套件能夠支援新域名 **https://www.copy20.com** 。
 
 ## 用法
 **使用倉庫更新地址**
