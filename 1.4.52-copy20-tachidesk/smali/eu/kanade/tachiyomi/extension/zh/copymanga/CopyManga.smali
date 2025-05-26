@@ -296,7 +296,7 @@
 
     move-result-object v0
 
-    const-string v2, "Dart/2.16(dart:io)"
+    const-string v2, "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36"
 
     .line 70
     invoke-static {v0, v2}, Leu/kanade/tachiyomi/extension/zh/copymanga/UtilsKt;->setUserAgent(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
@@ -1420,7 +1420,7 @@
 .end method
 
 .method protected pageListParse(Lokhttp3/Response;)Ljava/util/List;
-    .locals 10
+    .locals 11
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1467,9 +1467,10 @@
 
     move-result v0
 
-    const-string v1, "\u52a0\u8f7d\u5931\u8d25\uff0c\u5982\u679c\u91cd\u8bd5\u65e0\u6548\u8bf7\u5728 GitHub \u4e0a\u53cd\u9988"
+    const-string v1, "\u52a0\u8f7d\u5931\u8d25\uff0c\u5982\u679c\u91cd\u8bd5\u65e0\u6548\u8bf7\u5728 GitHub \u4e0a\u53cd\u9988 1"
+    const-string v10, "\u52a0\u8f7d\u5931\u8d25\uff0c\u5982\u679c\u91cd\u8bd5\u65e0\u6548\u8bf7\u5728 GitHub \u4e0a\u53cd\u9988 2"
 
-    if-nez v0, :cond_5
+    # if-nez v0, :cond_5
 
     .line 213
     invoke-virtual {p1}, Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListWrapperDto;->getChapter()Leu/kanade/tachiyomi/extension/zh/copymanga/ChapterPageListDto;
@@ -1687,13 +1688,14 @@
 
     return-object p1
 
-    .line 210
-    :cond_5
-    new-instance p1, Ljava/lang/Exception;
+    # .line 210
+    # :cond_5
+    # new-instance p1, Ljava/lang/Exception;
 
-    invoke-direct {p1, v1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+    # invoke-direct {p1, v10}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    throw p1
+    # throw p1
+    # return-void
 .end method
 
 .method protected pageListRequest(Leu/kanade/tachiyomi/source/model/SChapter;)Lokhttp3/Request;
