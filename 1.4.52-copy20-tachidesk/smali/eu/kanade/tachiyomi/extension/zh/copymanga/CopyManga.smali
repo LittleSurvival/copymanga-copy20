@@ -296,7 +296,8 @@
 
     move-result-object v0
 
-    const-string v2, "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36"
+    #Use PC browser User-Agent
+    const-string v2, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
 
     .line 70
     invoke-static {v0, v2}, Leu/kanade/tachiyomi/extension/zh/copymanga/UtilsKt;->setUserAgent(Lokhttp3/Headers$Builder;Ljava/lang/String;)Lokhttp3/Headers$Builder;
