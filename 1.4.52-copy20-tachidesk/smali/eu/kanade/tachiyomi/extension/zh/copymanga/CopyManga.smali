@@ -306,7 +306,7 @@
 
     const-string v2, "source"
 
-    const-string v3, "copyApp"
+    const-string v3, ""
 
     .line 71
     invoke-virtual {v0, v2, v3}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
@@ -337,7 +337,7 @@
 
     const-string v1, "platform"
 
-    const-string v2, "2"
+    const-string v2, "4"
 
     .line 74
     invoke-virtual {v0, v1, v2}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
@@ -1231,7 +1231,7 @@
 
     const-string v1, "webp"
 
-    const-string v2, "2"
+    const-string v2, "4"
 
     .line 66
     invoke-virtual {v0, v1, v2}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
@@ -2170,7 +2170,7 @@
 
     const-string p2, "platform"
 
-    const-string v1, "2"
+    const-string v1, "4"
 
     .line 133
     invoke-virtual {p1, p2, v1}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;

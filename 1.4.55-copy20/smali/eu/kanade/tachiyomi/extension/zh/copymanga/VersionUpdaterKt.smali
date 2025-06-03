@@ -27,7 +27,7 @@
         "Lokhttp3/OkHttpClient;",
         "preferences",
         "Landroid/content/SharedPreferences;",
-        "tachiyomi-zh.copymanga-v1.4.55_release"
+        "tachiyomi-zh.copymanga-v1.4.56_release"
     }
     k = 0x2
     mv = {

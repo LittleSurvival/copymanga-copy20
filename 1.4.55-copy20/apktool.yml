@@ -1,5 +1,5 @@
 version: 2.11.1
-apkFileName: tachiyomi-zh.copymanga-v1.4.55.apk
+apkFileName: tachiyomi-zh.copymanga-v1.4.56.apk
 isFrameworkApk: false
 usesFramework:
   ids:

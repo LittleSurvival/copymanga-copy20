@@ -16,7 +16,7 @@
         "context",
         "Landroid/content/Context;",
         "(Leu/kanade/tachiyomi/extension/zh/copymanga/CopyManga;Landroid/content/Context;)[Landroidx/preference/Preference;",
-        "tachiyomi-zh.copymanga-v1.4.55_release"
+        "tachiyomi-zh.copymanga-v1.4.56_release"
     }
     k = 0x2
     mv = {
