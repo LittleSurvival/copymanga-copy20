@@ -8,8 +8,8 @@
 
 若無法成功，則 **下載apk並安裝** ， 請去 [Releases](https://github.com/LittleSurvival/copymanga-copy20/releases) 下載APK。
 
-## 最新更新 v1.4.55
+## 最新更新 v1.4.56
 
-- 修復 *参数已更新 请重启应用*  錯誤 
+- 修復 JsonDecodeError $e  錯誤
 
 > 若侵犯到原作者權益立即刪除
