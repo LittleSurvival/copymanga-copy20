@@ -26,7 +26,7 @@
         "type",
         "Lkotlin/reflect/KType;",
         "(Lokhttp3/Response;Lkotlin/reflect/KType;)Ljava/lang/Object;",
-        "tachiyomi-zh.copymanga-v1.4.56_release"
+        "tachiyomi-zh.copymanga-v1.4.57_release"
     }
     k = 0x2
     mv = {

@@ -41,7 +41,7 @@
         "Lkotlinx/serialization/descriptors/SerialDescriptor;",
         "$serializer",
         "Companion",
-        "tachiyomi-zh.copymanga-v1.4.56_release"
+        "tachiyomi-zh.copymanga-v1.4.57_release"
     }
     k = 0x1
     mv = {

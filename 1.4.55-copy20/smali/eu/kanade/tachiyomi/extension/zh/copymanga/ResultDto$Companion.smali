@@ -26,7 +26,7 @@
         "Leu/kanade/tachiyomi/extension/zh/copymanga/ResultDto;",
         "T0",
         "typeSerial0",
-        "tachiyomi-zh.copymanga-v1.4.56_release"
+        "tachiyomi-zh.copymanga-v1.4.57_release"
     }
     k = 0x1
     mv = {

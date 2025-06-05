@@ -99,7 +99,7 @@
         "setupPreferenceScreen",
         "screen",
         "Landroidx/preference/PreferenceScreen;",
-        "tachiyomi-zh.copymanga-v1.4.56_release"
+        "tachiyomi-zh.copymanga-v1.4.57_release"
     }
     k = 0x1
     mv = {
@@ -338,14 +338,14 @@
 
     move-result-object v2
 
-    const-string v4, "platform"
+    # const-string v4, "platform"
 
-    const-string v5, "4"
+    # const-string v5, " "
 
     .line 76
-    invoke-virtual {v2, v4, v5}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
+    # invoke-virtual {v2, v4, v5}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
 
-    move-result-object v2
+    # move-result-object v2
 
     const-string v4, "umstring"
 
@@ -1333,7 +1333,7 @@
 
     const-string v1, "webp"
 
-    const-string v2, "4"
+    const-string v2, ""
 
     .line 69
     invoke-virtual {v0, v1, v2}, Lokhttp3/Headers$Builder;->add(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Headers$Builder;
@@ -1587,8 +1587,8 @@
     move-result-object p1
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p1, "?platform=4"
+    #?platform=2
+    const-string p1, ""
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1985,8 +1985,8 @@
     move-result-object p1
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p1, "?platform=4"
+    # ?platform=2
+    const-string p1, "" 
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2417,7 +2417,7 @@
 
     const-string p2, "platform"
 
-    const-string v1, "4"
+    const-string v1, "2"
 
     .line 166
     invoke-virtual {p1, p2, v1}, Lokhttp3/HttpUrl$Builder;->addQueryParameter(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/HttpUrl$Builder;

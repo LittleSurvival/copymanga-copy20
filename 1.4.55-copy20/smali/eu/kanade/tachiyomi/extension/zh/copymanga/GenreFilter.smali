@@ -19,7 +19,7 @@
         "",
         "Leu/kanade/tachiyomi/extension/zh/copymanga/Param;",
         "([Leu/kanade/tachiyomi/extension/zh/copymanga/Param;)V",
-        "tachiyomi-zh.copymanga-v1.4.56_release"
+        "tachiyomi-zh.copymanga-v1.4.57_release"
     }
     k = 0x1
     mv = {
