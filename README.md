@@ -13,6 +13,7 @@
 
 ## 最新更新 v1.4.58
 
++ 新版本與tachidesk兼容
 + 新增自訂API域名
 + 新增自訂WebView域名
 + 新增自訂User-Agent
