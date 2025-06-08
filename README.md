@@ -12,13 +12,16 @@
 ## 相關
 - [Discord群](https://discord.gg/kE2VAZk2pd)
 
-## 最新更新 v1.4.60
+## 最新更新 v1.4.61
 
 > Info
 + 新版本與tachidesk/Suwayomi最新版本兼容
 
-> Bugfix
-+ 嘗試修復ios端問題
+> Bugfix (近期更新)
++ 修復插件自訂User-Agent失效問題
++ 修復漫畫簡介標籤簡繁轉換問題
+
++ 修復TachiManga無法載入插件設定問題
 
 + 修復簡繁轉換未生效問題
 + 修復無法及時載入漫畫詳情問題
