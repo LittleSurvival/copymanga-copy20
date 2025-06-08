@@ -11,8 +11,14 @@
 ## 相關
 - [Discord群](https://discord.gg/kE2VAZk2pd)
 
-## 最新更新 v1.4.57
+## 最新更新 v1.4.58
 
-- 修復 JsonDecodeError $e  錯誤
++ 新增自訂API域名
++ 新增自訂WebView域名
++ 新增自訂User-Agent
++ 新增自訂平台參數
++ 新增WebView客戶端類型
+
+- 可能有少數舊收藏的章節報"404"，請刷新章節列表
 
 > 若侵犯到原作者權益立即刪除
