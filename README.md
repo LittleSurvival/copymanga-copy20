@@ -12,12 +12,14 @@
 ## 相關
 - [Discord群](https://discord.gg/kE2VAZk2pd)
 
-## 最新更新 v1.4.59
+## 最新更新 v1.4.60
 
 > Info
-+ 新版本與tachidesk/suwayomi最新版本兼容
++ 新版本與tachidesk/Suwayomi最新版本兼容
 
 > Bugfix
++ 嘗試修復ios端問題
+
 + 修復簡繁轉換未生效問題
 + 修復無法及時載入漫畫詳情問題
 + 修復無法正確載入漫畫標籤問題
