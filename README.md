@@ -11,6 +11,7 @@
 
 ## 相關
 - [Discord群](https://discord.gg/kE2VAZk2pd)
+- QQ群 [516631221](https://qm.qq.com/q/uPGMxTrBIe)
 
 ## 最新更新 v1.4.61
 
