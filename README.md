@@ -19,7 +19,7 @@
 + 新版本與tachidesk/Suwayomi最新版本兼容
 
 > Bugfix (近期更新)
-+ 嘗試修復TachiManga只能看五頁(UA錯誤)的問題
++ 修復TachiManga只能看五頁(UA錯誤)的問題
 + 修復插件自訂User-Agent失效問題
 
 > Q&A
