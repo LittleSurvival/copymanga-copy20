@@ -18,7 +18,11 @@
 > Info
 + 新版本與tachidesk/Suwayomi最新版本兼容
 
-> Bugfix (近期更新)
+> New Updates (近期更新)
++ 篩選新增男頻/女頻榜單查看
++ 優化漫畫吐槽排版
++ 篩選題材全覆蓋所有條目，並顯示該題材作品總數
+
 + 修復TachiManga只能看五頁(UA錯誤)的問題
 + 修復插件自訂User-Agent失效問題
 
