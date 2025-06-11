@@ -13,7 +13,7 @@
 - [Discord群](https://discord.gg/kE2VAZk2pd)
 - QQ群 [516631221](https://qm.qq.com/q/uPGMxTrBIe)
 
-## 最新更新 v1.4.62
+## 最新更新 v1.4.63
 
 > Info
 + 新版本與tachidesk/Suwayomi最新版本兼容
