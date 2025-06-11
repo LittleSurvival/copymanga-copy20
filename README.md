@@ -13,18 +13,18 @@
 - [Discord群](https://discord.gg/kE2VAZk2pd)
 - QQ群 [516631221](https://qm.qq.com/q/uPGMxTrBIe)
 
-## 最新更新 v1.4.63
+## 最新更新 v1.4.64
 
 > Info
-+ 新版本與tachidesk/Suwayomi最新版本兼容
++ 新版本與Tachidesk/Suwayomi最新版本兼容
 
 > New Updates (近期更新)
++ 二次優化漫畫吐槽排版
++ 修復Tachidesk/Suwayomi簡繁轉換導致插鍵無法使用問題
+
 + 篩選新增男頻/女頻榜單查看
 + 優化漫畫吐槽排版
 + 篩選題材全覆蓋所有條目，並顯示該題材作品總數
-
-+ 修復TachiManga只能看五頁(UA錯誤)的問題
-+ 修復插件自訂User-Agent失效問題
 
 > Q&A
 + 舊單行本下載檔案無法識別，目前唯一解為解除收藏 -> "進階>清除資料庫" -> 刷新章節 -> "進階>重新索引下載位置"，但這也會導致閱讀紀錄被清除，不推薦
