@@ -13,13 +13,17 @@
 - [Discord群](https://discord.gg/kE2VAZk2pd)
 - QQ群 [516631221](https://qm.qq.com/q/uPGMxTrBIe)
 
-## 最新更新 v1.4.65
+## 最新更新 v1.4.66
 
 > Info
 + 新版本與Tachidesk/Suwayomi最新版本兼容
 + 現已支持熱辣漫畫 (可在插鍵設定更改api域名切換)
 
 > New Updates (近期更新)
++ 添加搜索限速 (改善觸發防盜版機制問題)
++ 添加最新區塊選項 最新更新(默認)/最新入庫(僅支持拷貝)
++ 修復題材篩選未刷新時回復 NoSuchElement 問題
+
 + 添加支持 熱辣漫畫 (共2個api域名，皆為大陸專線)
 + 優化章末吐槽頁排版 (這都第三次了...)
 + 章末吐槽頁新增設定
