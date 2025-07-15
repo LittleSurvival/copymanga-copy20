@@ -1,0 +1,22 @@
+name: Discord Auto Announcement
+
+on:
+  # 手動觸發：在 Actions 頁面就會顯示「Run workflow」按鈕
+  workflow_dispatch:
+
+  # 正式 publish Release 時自動觸發（draft 階段不觸發）
+  release:
+    types: [published]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send message to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d "{\"content\":\":tada: **${{ github.event.release.name }}** 已發布！\n詳情：${{ github.event.release.html_url }}\"}" \
+               $DISCORD_WEBHOOK_URL
