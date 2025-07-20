@@ -13,25 +13,18 @@
 - [Discord群](https://discord.gg/kE2VAZk2pd)
 - QQ群 [516631221](https://qm.qq.com/q/uPGMxTrBIe)
 
-## 最新更新 v1.4.68
+## 最新更新 v1.4.69
 
 > Info
 + 新版本與Tachidesk/Suwayomi最新版本兼容
 + 現已支持熱辣漫畫 (可在插鍵設定更改api域名切換)
 
 > New Updates (近期更新)
-+ 新增 拷貝新站域名(可在插鍵設定中選擇) / 更新版本參數
-+ 修復 登入無法正常使用/ 優化登入流程
-+ 修復 登入功能以及其他原因導致的崩潰問題 (CalledFromWrongThreadException/IndexOutOfBoundsException)
-+ 修復 評論頁無法載入問題
-+ 優化 HTTP 210 報錯信息(觸發防盜版/登入失敗等等)
-
-+ 新增api域名 (一個拷貝漫畫域名 (拷貝新站) / 五個熱辣漫畫域名)，未來可能支持自動多域名分流
-+ 優化限流器 觸發防盜版仍需觀察
-+ 篩選中新增 免費/付費漫畫
-+ 優化章節吐槽排版(第四次了...)
-+ 新增503錯誤提示
-+ 現在可以在插件設定中使用帳號密碼登入拷貝/熱辣漫畫
++ 優化 登入報錯信息
++ 新增 WebView域名(www.2025copy.com)
++ 修復 WebView章節/內容連結錯亂導致跳轉問題
++ 重新加入WebView登入(會擷取目前設定選擇的WebView網站Cookie)
++ 出於資安考慮，帳號密碼輸入完後清空，不做儲存
 
 + 嘗試改善章節吐槽Connection Reset問題
 + 嘗試改善Tachiyomi對插鍵無法識別問題(還是沒搞明白)
