@@ -15,5 +15,10 @@ jobs:
         run: |
           curl -H "Content-Type: application/json" \
                -X POST \
-               -d '${{ toJson({content: format("@ 更新{} (倉庫更新約有五分鐘延遲)\n\n{}\n\n下載 APK：{}", github.event.release.tag_name, github.event.release.body, github.event.release.assets[0].browser_download_url)}) }}' \
+               -d "{\"content\":${{ toJson(format(
+                 '@everyone 更新{} (倉庫更新約有五分鐘延遲)\n\n{}\n\n下載 APK：{}',
+                 github.event.release.tag_name,
+                 github.event.release.body,
+                 github.event.release.assets[0].browser_download_url
+               )) }}}" \
                $DISCORD_WEBHOOK_URL
