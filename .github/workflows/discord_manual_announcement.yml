@@ -1,0 +1,41 @@
+name: Discord Manual Announcement
+
+# 只在手動觸發時跑
+on:
+  workflow_dispatch:
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 取最新 release
+      - name: Fetch latest release info
+        id: get_latest
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data } = await github.rest.repos.getLatestRelease({
+              owner: context.repo.owner,
+              repo:  context.repo.repo
+            });
+            return {
+              tag_name:    data.tag_name,
+              body:        data.body,
+              download_url: data.assets.length > 0 ? data.assets[0].browser_download_url : ''
+            };
+
+      # 2. 組 JSON 並呼叫 Discord Webhook
+      - name: Notify Discord via curl
+        run: |
+          PAYLOAD=$(jq -c -n \
+            --arg tag   "$(jq -r .tag_name <<< "${{ steps.get_latest.outputs.result }}")" \
+            --arg body  "$(jq -r .body     <<< "${{ steps.get_latest.outputs.result }}")" \
+            --arg url   "$(jq -r .download_url <<< "${{ steps.get_latest.outputs.result }}")" \
+            '{content: "@everyone 更新\($tag) (倉庫更新約有五分鐘延遲)\n\n\($body)\n\n下載 APK：\($url)"}'
+          )
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD" \
+            ${{ secrets.DISCORD_WEBHOOK_URL }}
