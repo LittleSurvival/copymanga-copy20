@@ -29,13 +29,22 @@ jobs:
       # 2. 組 JSON 並呼叫 Discord Webhook
       - name: Notify Discord via curl
         run: |
-          PAYLOAD=$(jq -c -n \
-            --arg tag   "$(jq -r .tag_name <<< "${{ steps.get_latest.outputs.result }}")" \
-            --arg body  "$(jq -r .body     <<< "${{ steps.get_latest.outputs.result }}")" \
-            --arg url   "$(jq -r .download_url <<< "${{ steps.get_latest.outputs.result }}")" \
+          # 直接用单引号让 Bash 不解析内部引号
+          TEST_JSON='{"tag_name":"v1.4.69","body":"這裡放 body…","download_url":"https://…apk"}'
+          
+          tag=$(jq -r .tag_name <<< "$TEST_JSON")
+          body=$(jq -r .body     <<< "$TEST_JSON")
+          url=$(jq -r .download_url <<< "$TEST_JSON")
+          
+          PAYLOAD=$(jq -nc \
+            --arg tag  "$tag" \
+            --arg body "$body" \
+            --arg url  "$url" \
             '{content: "@everyone 更新\($tag) (倉庫更新約有五分鐘延遲)\n\n\($body)\n\n下載 APK：\($url)"}'
           )
+          
           curl -X POST \
             -H "Content-Type: application/json" \
             -d "$PAYLOAD" \
             ${{ secrets.DISCORD_WEBHOOK_URL }}
+
