@@ -13,13 +13,17 @@
 - [Discord群](https://discord.gg/kE2VAZk2pd)
 - QQ群 [516631221](https://qm.qq.com/q/uPGMxTrBIe)
 
-## 最新更新 v1.4.69
+## 最新更新 v1.4.70
 
 > Info
 + 新版本與Tachidesk/Suwayomi最新版本兼容
 + 現已支持熱辣漫畫 (可在插鍵設定更改api域名切換)
 
 > New Updates (近期更新)
+
+> (v1.4.70)
++ 章末吐槽頁在使用熱辣時的域名更新至拷貝最新的api域名
+> (v1.4.69)
 + 優化 登入報錯信息
 + 新增 WebView域名(www.2025copy.com)
 + 修復 WebView章節/內容連結錯亂導致跳轉問題
