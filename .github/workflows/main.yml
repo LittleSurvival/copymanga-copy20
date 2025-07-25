@@ -1,0 +1,25 @@
+name: Sync main to repo
+
+on:
+  push:
+    branches:
+      - main  # 每次 main 分支有變動時觸發
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Force push main to repo branch
+        run: |
+          git push origin main:repo --force
