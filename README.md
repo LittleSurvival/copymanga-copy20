@@ -13,7 +13,7 @@
 - [Discord群](https://discord.gg/kE2VAZk2pd)
 - QQ群 [516631221](https://qm.qq.com/q/uPGMxTrBIe)
 
-## 最新更新 v1.4.70
+## 最新更新 v1.4.71
 
 > Info
 + 新版本與Tachidesk/Suwayomi最新版本兼容
@@ -21,6 +21,9 @@
 
 > New Updates (近期更新)
 
+> (v1.4.71)
++ 修復TachiDesk無法登入問題
++ 修復僅登入一平台後會清除另一平台Token問題
 > (v1.4.70)
 + 章末吐槽頁在使用熱辣時的域名更新至拷貝最新的api域名
 > (v1.4.69)
