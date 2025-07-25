@@ -1,0 +1,30 @@
+name: Sync main to repo
+
+# 這行告訴 GitHub 給 GITHUB_TOKEN 寫入 repo 的權限
+permissions:
+  contents: write
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true  # 確保使用 GITHUB_TOKEN
+
+      - name: Set Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Push main → repo
+        run: |
+          git push origin main:repo --force
