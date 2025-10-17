@@ -12,6 +12,7 @@
 ## 相關
 - [Discord群](https://discord.gg/kE2VAZk2pd)
 - QQ群 [516631221](https://qm.qq.com/q/uPGMxTrBIe)
+- [說明頁](https://littlesurvival.github.io/copymanga-copy20/)
 
 ## 最新更新 v1.4.73
 
