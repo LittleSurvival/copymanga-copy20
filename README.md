@@ -36,3 +36,6 @@
 + 舊單行本下載檔案無法識別，目前唯一解為解除收藏 -> "進階>清除資料庫" -> 刷新章節 -> "進階>重新索引下載位置"，但這也會導致閱讀紀錄被清除，不推薦
 + 普通章節檔案無法識別可能是簡繁轉換導致無法匹配
 + 關於只能看五頁，請嘗試更換User-Agent(包括插件設定以及Mihon本身自帶的UA設定)
+
+##
+[![Star History Chart](https://api.star-history.com/svg?repos=LittleSurvival/copymanga-copy20&type=Date)](https://star-history.com/#LittleSurvival/copymanga-copy20&Date)
