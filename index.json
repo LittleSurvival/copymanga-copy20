@@ -2,10 +2,10 @@
   {
     "name": "Tachiyomi: CopyManga",
     "pkg": "eu.kanade.tachiyomi.extension.zh.copymanga",
-    "apk": "tachiyomi-zh.copymanga-v1.4.73.apk",
+    "apk": "tachiyomi-zh.copymanga-v1.4.74.apk",
     "lang": "zh",
-    "code": 73,
-    "version": "1.4.73",
+    "code": 74,
+    "version": "1.4.74",
     "nsfw": 1,
     "sources": [
       {

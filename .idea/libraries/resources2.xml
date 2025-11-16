@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="resources2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/smali/1.4.52-copy20-tachidesk/build/resources.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
