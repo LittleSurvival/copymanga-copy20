@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="resources">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/smali/1.4.55-copy20/build/resources.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
