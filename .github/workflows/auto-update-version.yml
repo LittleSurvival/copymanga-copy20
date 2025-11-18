@@ -1,4 +1,4 @@
-name: Update Extension JSON
+name: Update Extension JSON & Release
 
 permissions:
   contents: write
@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           ref: main
@@ -25,12 +25,14 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install dependencies
-        run: pip install packaging
+        run: |
+          pip install packaging
 
-      - name: Update JSON files
+      - name: Extract version, update JSON, generate Release Notes
+        id: prepare
         run: |
           python3 << 'EOF'
           import os, re, json
@@ -38,8 +40,9 @@ jobs:
 
           APK_DIR = "apk"
           JSON_FILES = ["index.json", "index.min.json"]
+          README = "README.md"
 
-          # ---- Step 1: Detect latest APK version ----
+          # ---- Step 1: Detect newest APK ----
           version_pat = re.compile(r"v(\d+\.\d+\.\d+)\.apk")
           versions = []
 
@@ -49,18 +52,18 @@ jobs:
                   versions.append(Version(m.group(1)))
 
           if not versions:
-              print("No APK files found.")
-              exit(0)
+              print("No APK found")
+              exit(1)
 
           latest = str(max(versions))
           apk_file = f"tachiyomi-zh.copymanga-v{latest}.apk"
-          code = int(latest.split(".")[-1])
+          build_code = int(latest.split(".")[-1])
 
-          print("Detected latest version:", latest)
+          print("LATEST_VERSION=" + latest)
+          print("APK_FILE=" + apk_file)
 
+          # ---- Step 2: Update JSON ----
           changed = False
-
-          # ---- Step 2: Update JSON files ----
           for jf in JSON_FILES:
               if not os.path.exists(jf):
                   continue
@@ -69,37 +72,78 @@ jobs:
                   data = json.load(f)
 
               entry = data[0]
-
               if entry["version"] != latest:
                   changed = True
 
               entry["version"] = latest
+              entry["code"] = build_code
               entry["apk"] = apk_file
-              entry["code"] = code
 
+              # pretty format JSON
               with open(jf, "w", encoding="utf-8") as f:
-                  json.dump(data, f, ensure_ascii=False)
+                  json.dump(data, f, ensure_ascii=False, indent=2)
 
           if not changed:
-              print("No changes required.")
-              exit(0)   # avoid useless commit
+              print("NO_UPDATE=1")
+              print("::set-output name=no_update::1")
+          else:
+              print("NO_UPDATE=0")
+              print("::set-output name=no_update::0")
+
+          # ---- Step 3: Extract version content from README.md ----
+          content = ""
+          inside = False
+          with open(README, "r", encoding="utf-8") as f:
+              for line in f:
+                  if f"## 最新更新 v{latest}" in line:
+                      inside = True
+                      content += line
+                      continue
+
+                  if inside:
+                      if line.startswith("## ") and latest not in line:
+                          break
+                      content += line
+
+          # write extracted content to file for later use
+          with open("release_content.txt", "w", encoding="utf-8") as f:
+              f.write(content)
+
+          print("::set-output name=version::" + latest)
+          print("::set-output name=apk::" + apk_file)
           EOF
 
-      - name: Commit updated JSON
+      - name: Commit JSON changes
+        if: steps.prepare.outputs.no_update == '0'
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+          git add index.json index.min.json
+          git commit -m "Auto update version to ${{ steps.prepare.outputs.version }}"
+          git push origin main
 
-          if [[ -n "$(git status --porcelain)" ]]; then
-            git add index.json index.min.json
-            git commit -m "Auto update extension JSON version"
-            git push origin main
-          else
-            echo "Nothing to commit."
-          fi
+      - name: Create GitHub Release
+        if: steps.prepare.outputs.no_update == '0'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: "v${{ steps.prepare.outputs.version }}"
+          name: "v${{ steps.prepare.outputs.version }}"
+          body: |
+            # Release Notes
 
-      - name: Force sync main to repo branch
+            下載點 -> 以後丟下面附加檔案
+
+            若需要舊版本，請在 [old-releases](https://github.com/LittleSurvival/copymanga-copy20/tree/main/old-releases) 下載
+
+            $(cat release_content.txt)
+
+
+            > [大陸載點(度盤) 密碼1234 ](https://pan.baidu.com/s/1Msby_oyqDnpC8kZIoLZSIQ?pwd=1234)
+            ** **
+            - **簽名不同**：若無法正常安裝；請先移除舊版本再安裝；更新時記得點選信任
+          files: |
+            apk/${{ steps.prepare.outputs.apk }}
+
+      - name: Force sync main → repo
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
           git push origin main:repo --force
