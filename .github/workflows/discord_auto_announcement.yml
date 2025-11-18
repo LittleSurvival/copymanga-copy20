@@ -14,9 +14,8 @@ jobs:
         with:
           url: ${{ secrets.DISCORD_WEBHOOK_URL }}
           method: POST
-          headers: |
-            Content-Type: application/json
-          body: |
+          contentType: 'application/json'
+          data: |
             {
               "content": "@everyone 更新${{ github.event.release.tag_name }} (倉庫更新約有五分鐘延遲)\n\n${{ github.event.release.body }}\n\n下載 APK：${{ github.event.release.assets[0].browser_download_url }}"
             }
