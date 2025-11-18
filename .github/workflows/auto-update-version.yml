@@ -28,19 +28,18 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: |
-          pip install packaging
+        run: pip install packaging
 
-      - name: Extract version, update JSON, generate Release Notes
+      - name: Extract version, update JSON, prepare release content
         id: prepare
         run: |
           python3 << 'EOF'
-          import os, re, json
+          import os, re, json, base64
           from packaging.version import Version
 
           APK_DIR = "apk"
-          JSON_FILES = ["index.json", "index.min.json"]
           README = "README.md"
+          JSON_FILES = ["index.json", "index.min.json"]
 
           # ---- Step 1: Detect newest APK ----
           version_pat = re.compile(r"v(\d+\.\d+\.\d+)\.apk")
@@ -59,19 +58,19 @@ jobs:
           apk_file = f"tachiyomi-zh.copymanga-v{latest}.apk"
           build_code = int(latest.split(".")[-1])
 
-          print("LATEST_VERSION=" + latest)
-          print("APK_FILE=" + apk_file)
+          print(f"::set-output name=version::{latest}")
+          print(f"::set-output name=apk::{apk_file}")
 
           # ---- Step 2: Update JSON ----
           changed = False
           for jf in JSON_FILES:
               if not os.path.exists(jf):
                   continue
-
               with open(jf, "r", encoding="utf-8") as f:
                   data = json.load(f)
 
               entry = data[0]
+
               if entry["version"] != latest:
                   changed = True
 
@@ -79,41 +78,39 @@ jobs:
               entry["code"] = build_code
               entry["apk"] = apk_file
 
-              # pretty format JSON
               with open(jf, "w", encoding="utf-8") as f:
                   json.dump(data, f, ensure_ascii=False, indent=2)
 
           if not changed:
-              print("NO_UPDATE=1")
               print("::set-output name=no_update::1")
           else:
-              print("NO_UPDATE=0")
               print("::set-output name=no_update::0")
 
-          # ---- Step 3: Extract version content from README.md ----
+          # ---- Step 3: Extract README update section ----
           content = ""
           inside = False
+
           with open(README, "r", encoding="utf-8") as f:
               for line in f:
+                  # start point
                   if f"## 最新更新 v{latest}" in line:
                       inside = True
                       content += line
                       continue
 
+                  # stop when next section begins
+                  if inside and line.startswith("## ") and f"v{latest}" not in line:
+                      break
+
                   if inside:
-                      if line.startswith("## ") and latest not in line:
-                          break
                       content += line
 
-          # write extracted content to file for later use
-          with open("release_content.txt", "w", encoding="utf-8") as f:
-              f.write(content)
-
-          print("::set-output name=version::" + latest)
-          print("::set-output name=apk::" + apk_file)
+          # Base64 encode to avoid YAML issues
+          encoded = base64.b64encode(content.encode("utf-8")).decode("utf-8")
+          print(f"::set-output name=content_b64::{encoded}")
           EOF
 
-      - name: Commit JSON changes
+      - name: Commit JSON updates
         if: steps.prepare.outputs.no_update == '0'
         run: |
           git config user.name "github-actions"
@@ -121,6 +118,12 @@ jobs:
           git add index.json index.min.json
           git commit -m "Auto update version to ${{ steps.prepare.outputs.version }}"
           git push origin main
+
+      - name: Decode content_b64
+        if: steps.prepare.outputs.no_update == '0'
+        id: decode
+        run: |
+          echo "${{ steps.prepare.outputs.content_b64 }}" | base64 --decode > release_content.txt
 
       - name: Create GitHub Release
         if: steps.prepare.outputs.no_update == '0'
@@ -134,6 +137,7 @@ jobs:
             下載點 -> 以後丟下面附加檔案
 
             若需要舊版本，請在 [old-releases](https://github.com/LittleSurvival/copymanga-copy20/tree/main/old-releases) 下載
+
 
             $(cat release_content.txt)
 
