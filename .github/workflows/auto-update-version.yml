@@ -1,0 +1,105 @@
+name: Update Extension JSON
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "apk/*.apk"
+  workflow_dispatch:
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install packaging
+
+      - name: Update JSON files
+        run: |
+          python3 << 'EOF'
+          import os, re, json
+          from packaging.version import Version
+
+          APK_DIR = "apk"
+          JSON_FILES = ["index.json", "index.min.json"]
+
+          # ---- Step 1: Detect latest APK version ----
+          version_pat = re.compile(r"v(\d+\.\d+\.\d+)\.apk")
+          versions = []
+
+          for f in os.listdir(APK_DIR):
+              m = version_pat.search(f)
+              if m:
+                  versions.append(Version(m.group(1)))
+
+          if not versions:
+              print("No APK files found.")
+              exit(0)
+
+          latest = str(max(versions))
+          apk_file = f"tachiyomi-zh.copymanga-v{latest}.apk"
+          code = int(latest.split(".")[-1])
+
+          print("Detected latest version:", latest)
+
+          changed = False
+
+          # ---- Step 2: Update JSON files ----
+          for jf in JSON_FILES:
+              if not os.path.exists(jf):
+                  continue
+
+              with open(jf, "r", encoding="utf-8") as f:
+                  data = json.load(f)
+
+              entry = data[0]
+
+              if entry["version"] != latest:
+                  changed = True
+
+              entry["version"] = latest
+              entry["apk"] = apk_file
+              entry["code"] = code
+
+              with open(jf, "w", encoding="utf-8") as f:
+                  json.dump(data, f, ensure_ascii=False)
+
+          if not changed:
+              print("No changes required.")
+              exit(0)   # avoid useless commit
+          EOF
+
+      - name: Commit updated JSON
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add index.json index.min.json
+            git commit -m "Auto update extension JSON version"
+            git push origin main
+          else
+            echo "Nothing to commit."
+          fi
+
+      - name: Force sync main to repo branch
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git push origin main:repo --force
