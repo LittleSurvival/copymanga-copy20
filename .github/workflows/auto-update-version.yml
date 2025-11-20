@@ -138,9 +138,7 @@ jobs:
 
             若需要舊版本，請在 [old-releases](https://github.com/LittleSurvival/copymanga-copy20/tree/main/old-releases) 下載
 
-
-            $(cat release_content.txt)
-
+            ${{ steps.prepare.outputs.content }}
 
             > [大陸載點(度盤) 密碼1234 ](https://pan.baidu.com/s/1Msby_oyqDnpC8kZIoLZSIQ?pwd=1234)
             ** **
