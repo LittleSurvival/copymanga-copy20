@@ -1,6 +1,6 @@
 > 拜託打顆星星吧 :star: ~
 ## 說明 
-[**stevenyomi/copymanga**](https://github.com/stevenyomi/copymanga) 的延伸版 ，由於原作者已一年以上未更新，敝人基於其插件進行逆向與修補，使擴充套件能夠支援新域名 **https://www.copy20.com** 。
+Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic
 
 ## 用法
 **使用倉庫更新地址**
@@ -14,7 +14,15 @@
 - QQ群 [516631221](https://qm.qq.com/q/uPGMxTrBIe)
 - [說明頁](https://littlesurvival.github.io/copymanga-copy20/)
 
-## 最新更新 v1.4.75
+## vomic漫 v1.4.1
+> Info
++ 使用前請先至插鍵設置登入帳號
++ 支援熱門漫畫/最新更新漫畫
++ 支援主題/排序/連載狀態/創作類型/多項排行榜篩選
++ 支援顯示章節評論
++ 支援簡繁轉換(搜索支持自動轉成簡體)
+
+## 拷貝漫畫 v1.4.76
 
 > Info
 + 新版本與Tachidesk/Suwayomi最新版本兼容

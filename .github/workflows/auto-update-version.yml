@@ -93,7 +93,7 @@ jobs:
           with open(README, "r", encoding="utf-8") as f:
               for line in f:
                   # start point
-                  if f"## 最新更新 v{latest}" in line:
+                  if f"## 拷貝漫畫 v{latest}" in line:
                       inside = True
                       content += line
                       continue

@@ -15,5 +15,22 @@
         "baseUrl": "https://www.mangacopy.com"
       }
     ]
+  },
+  {
+    "name": "Tachiyomi: VomicMHPlus",
+    "pkg": "eu.kanade.tachiyomi.extension.zh.vomicmh",
+    "apk": "tachiyomi-zh.vomicmh-v1.4.1.apk",
+    "lang": "zh",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 1,
+    "sources": [
+      {
+        "id": "3001986353",
+        "lang": "1",
+        "name": "Vomic漫+",
+        "baseUrl": "https://vomicmh.com/"
+      }
+    ]
   }
 ]
