@@ -23,7 +23,7 @@
     "lang": "zh",
     "code": 1,
     "version": "1.4.1",
-    "nsfw": 1,
+    "nsfw": 0,
     "sources": [
       {
         "id": "3001986353",
