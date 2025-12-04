@@ -14,7 +14,14 @@ Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic
 - QQ群 [516631221](https://qm.qq.com/q/uPGMxTrBIe)
 - [說明頁](https://littlesurvival.github.io/copymanga-copy20/)
 
-## vomic漫 v1.4.1
+## 包子漫畫 v1.4.1
+> Info
++ 支援熱門漫畫/最新更新漫畫
++ 支援主題/地區/連載狀態
++ 支持去橫幅功能
++ 支持瀏覽最後一章(修復在網站以及Keiyoshi書源無法瀏覽)
+
+## vomic漫 v1.4.2
 > Info
 + 使用前請先至插鍵設置登入帳號
 + 支援熱門漫畫/最新更新漫畫

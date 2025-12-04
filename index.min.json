@@ -32,5 +32,22 @@
         "baseUrl": "https://vomicmh.com/"
       }
     ]
+  },
+  {
+    "name": "Tachiyomi: BaoziManhuaPlus",
+    "pkg": "eu.kanade.tachiyomi.extension.zh.baozimanhua",
+    "apk": "tachiyomi-zh.baozimanhua-v1.4.1.apk",
+    "lang": "zh",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 0,
+    "sources": [
+      {
+        "id": "5724751873601868",
+        "lang": "zh",
+        "name": "包子漫画+",
+        "baseUrl": "https://www.baozimh.com/"
+      }
+    ]
   }
 ]
