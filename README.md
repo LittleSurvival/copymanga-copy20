@@ -1,6 +1,6 @@
 > 拜託打顆星星吧 :star: ~
 ## 說明 
-Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic
+Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic/包子漫畫
 
 ## 用法
 **使用倉庫更新地址**
