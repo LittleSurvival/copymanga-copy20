@@ -13,6 +13,13 @@ Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic/�
 - [Discord群](https://discord.gg/kE2VAZk2pd)
 - QQ群 [516631221](https://qm.qq.com/q/uPGMxTrBIe)
 - [說明頁](https://littlesurvival.github.io/copymanga-copy20/)
+- 支持我
+  <a href="https://ko-fi.com/thenano">
+  <img height="36" style="border:0px;height:36px;" src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" border="0" alt="Buy Me a Coffee at ko-fi.com" />
+  </a>
+  <a href="https://afdian.com/a/littlesurvival0001">
+  <img height="36" style="border-radius:12px;height:36px;" src="https://pic1.afdiancdn.com/static/img/welcome/button-sponsorme.jpg" alt="在爱发电支持我" />
+  </a>
 
 ## 拷貝漫畫 v1.4.80
 
