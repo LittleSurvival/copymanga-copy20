@@ -2,10 +2,10 @@
   {
     "name": "Tachiyomi: CopyManga",
     "pkg": "eu.kanade.tachiyomi.extension.zh.copymanga",
-    "apk": "tachiyomi-zh.copymanga-v1.4.80.apk",
+    "apk": "tachiyomi-zh.copymanga-v1.4.81.apk",
     "lang": "zh",
-    "code": 80,
-    "version": "1.4.80",
+    "code": 81,
+    "version": "1.4.81",
     "nsfw": 1,
     "sources": [
       {
@@ -47,6 +47,23 @@
         "lang": "zh",
         "name": "包子漫画+",
         "baseUrl": "https://www.baozimh.com/"
+      }
+    ]
+  },
+  {
+    "name": "Tachiyomi: ManwaYuPlus",
+    "pkg": "eu.kanade.tachiyomi.extension.zh.manwayuplus",
+    "apk": "tachiyomi-zh.manwayuplus-v1.4.1.apk",
+    "lang": "zh",
+    "code": 1,
+    "version": "1.4.1",
+    "nsfw": 1,
+    "sources": [
+      {
+        "id": "1506592945012434101",
+        "lang": "zh",
+        "name": "漫蛙2+",
+        "baseUrl": "https://manwayu.cc/"
       }
     ]
   }
