@@ -52,7 +52,7 @@ Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic/�
 <!-- module:vomicmh:end -->
 
 <!-- module:manwayuplus:start -->
-## 漫蛙2 v1.4.7
+## 漫蛙2 v1.4.8
 
 > Info
 + 支援圖源多線路切換
@@ -60,9 +60,9 @@ Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic/�
 + 免登入支援源站所有作品
 
 > Update
++ 修復HTTP 301問題
 + 更新社群資訊
 <!-- module:manwayuplus:end -->
-
 <!-- module:baozimanhuaplus:start -->
 ## 包子漫畫 v1.4.3
 
