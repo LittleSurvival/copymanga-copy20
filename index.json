@@ -66,5 +66,22 @@
         "baseUrl": "https://www.manwali.cc"
       }
     ]
+  },
+  {
+    "name": "Tachiyomi: HipManga",
+    "pkg": "eu.kanade.tachiyomi.extension.zh.hipmh",
+    "lang": "zh",
+    "nsfw": 1,
+    "sources": [
+      {
+        "id": "10879178251255350",
+        "lang": "zh",
+        "name": "嬉皮漫畫",
+        "baseUrl": "https://m.hipmh.com"
+      }
+    ],
+    "apk": "tachiyomi-zh.hipmh-v1.4.1.apk",
+    "code": 1,
+    "version": "1.4.1"
   }
 ]
