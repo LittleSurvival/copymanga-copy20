@@ -64,7 +64,7 @@ Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic/�
 + 更新社群資訊
 <!-- module:manwayuplus:end -->
 <!-- module:baozimanhuaplus:start -->
-## 包子漫畫 v1.4.3
+## 包子漫畫 v1.4.4
 
 > Info
 + 支援熱門漫畫／最新更新漫畫
@@ -73,9 +73,11 @@ Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic/�
 + 修復無法正常瀏覽最後一章的問題
 
 > Update
-+ 更新社群資訊
++ 修復 WebView 驗證後無法沿用 Cookie 的問題
++ 預設域名改為 www.webmota.com，保留已儲存的域名設定
++ 遇到 Cloudflare 或站點驗證時顯示處理提示
++ 修復列表末頁缺少 next 時的解析錯誤
 <!-- module:baozimanhuaplus:end -->
-
 > Q&A
 + [New] : 為何把熱辣源併進拷貝，不做獨立新源? 由於兩者後端和漫畫存儲模式近乎一模一樣，且搬遷會導致某些無端麻煩，不如直接用api域名併入
 

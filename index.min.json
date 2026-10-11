@@ -36,17 +36,17 @@
   {
     "name": "Tachiyomi: BaoziManhuaPlus",
     "pkg": "eu.kanade.tachiyomi.extension.zh.baozimanhuaplus",
-    "apk": "tachiyomi-zh.baozimanhuaplus-v1.4.3.apk",
+    "apk": "tachiyomi-zh.baozimanhuaplus-v1.4.4.apk",
     "lang": "zh",
-    "code": 3,
-    "version": "1.4.3",
+    "code": 4,
+    "version": "1.4.4",
     "nsfw": 0,
     "sources": [
       {
         "id": "4654438345013653772",
         "lang": "zh",
         "name": "包子漫画+",
-        "baseUrl": "https://www.baozimh.com/"
+        "baseUrl": "https://www.webmota.com/"
       }
     ]
   },
