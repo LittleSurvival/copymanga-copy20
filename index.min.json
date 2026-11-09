@@ -2,17 +2,17 @@
   {
     "name": "Tachiyomi: CopyManga",
     "pkg": "eu.kanade.tachiyomi.extension.zh.copymanga",
-    "apk": "tachiyomi-zh.copymanga-v1.4.85.apk",
+    "apk": "tachiyomi-zh.copymanga-v1.6.87.apk",
     "lang": "zh",
-    "code": 85,
-    "version": "1.4.85",
+    "code": 87,
+    "version": "1.6.87",
     "nsfw": 1,
     "sources": [
       {
         "id": "6696312508930833206",
         "lang": "zh",
         "name": "拷贝漫画",
-        "baseUrl": "https://www.mangacopy.com"
+        "baseUrl": "https://www.copy3000.com"
       }
     ]
   },
