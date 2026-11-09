@@ -53,17 +53,17 @@
   {
     "name": "Tachiyomi: ManwaYuPlus",
     "pkg": "eu.kanade.tachiyomi.extension.zh.manwayuplus",
-    "apk": "tachiyomi-zh.manwayuplus-v1.4.8.apk",
+    "apk": "tachiyomi-zh.manwayuplus-v1.6.10.apk",
     "lang": "zh",
-    "code": 8,
-    "version": "1.4.8",
+    "code": 10,
+    "version": "1.6.10",
     "nsfw": 1,
     "sources": [
       {
         "id": "1506592945012434101",
         "lang": "zh",
         "name": "漫蛙2+",
-        "baseUrl": "https://www.manwali.cc"
+        "baseUrl": "https://manwari.cc/"
       }
     ]
   },
