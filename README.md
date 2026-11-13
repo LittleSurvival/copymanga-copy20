@@ -62,7 +62,7 @@ Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic/�
 + 優化圖片載入失敗的問題
 <!-- module:manwayuplus:end -->
 <!-- module:baozimanhuaplus:start -->
-## 包子漫畫 v1.4.4
+## 包子漫畫 v1.6.6
 
 > Info
 + 支援熱門漫畫／最新更新漫畫
@@ -71,12 +71,12 @@ Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic/�
 + 修復無法正常瀏覽最後一章的問題
 
 > Update
-+ 修復 WebView 驗證後無法沿用 Cookie 的問題
-+ 預設域名改為 www.webmota.com，保留已儲存的域名設定
-+ 遇到 Cloudflare 或站點驗證時顯示處理提示
-+ 修復列表末頁缺少 next 時的解析錯誤
++ 版本升級至 1.6
++ 刪除並更新有問題的域名
++ 預設 API 域名改為 tw.webmota.com
++ 修正隨機 CDN 選擇，排除模式值與目前無法連線的節點
++ 遇到 HTTP 404 時提示切換 API 域名至 tw.webmota.com
 <!-- module:baozimanhuaplus:end -->
-
 <!-- module:hipmh:start -->
 ## 嬉皮漫畫 v1.4.1
 
