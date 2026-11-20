@@ -19,10 +19,10 @@
   {
     "name": "Tachiyomi: VomicMHPlus",
     "pkg": "eu.kanade.tachiyomi.extension.zh.vomicmh",
-    "apk": "tachiyomi-zh.vomicmh-v1.4.4.apk",
+    "apk": "tachiyomi-zh.vomicmh-v1.6.4.apk",
     "lang": "zh",
     "code": 4,
-    "version": "1.4.4",
+    "version": "1.6.4",
     "nsfw": 0,
     "sources": [
       {

@@ -36,7 +36,7 @@ Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic/�
 + 新增copy5000域名
 <!-- module:copymanga:end -->
 <!-- module:vomicmh:start -->
-## vomic漫 v1.4.4
+## vomic漫 v1.6.4
 
 > Info
 + 使用前請先至插件設定登入帳號
@@ -47,8 +47,8 @@ Tachiyomi/Mihon等系列的中文漫畫書源，現已支持拷貝漫畫/vomic/�
 
 > Update
 + 更新社群資訊
++ 更新到1.6
 <!-- module:vomicmh:end -->
-
 <!-- module:manwayuplus:start -->
 ## 漫蛙2 v1.6.10
 
